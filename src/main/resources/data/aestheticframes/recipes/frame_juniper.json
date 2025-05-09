@@ -16,6 +16,7 @@
   ],
   "result": {
     "count": 4,
-    "id": "aestheticframes:frame_juniper"
-  }
+    "item": "aestheticframes:frame_juniper"
+  },
+  "show_notification": true
 }

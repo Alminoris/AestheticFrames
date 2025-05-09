@@ -16,6 +16,7 @@
   ],
   "result": {
     "count": 1,
-    "id": "aestheticframes:horizontal_frame_araucaria"
-  }
+    "item": "aestheticframes:horizontal_frame_araucaria"
+  },
+  "show_notification": true
 }

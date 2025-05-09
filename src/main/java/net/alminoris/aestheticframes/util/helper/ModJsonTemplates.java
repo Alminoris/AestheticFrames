@@ -21,8 +21,9 @@ public class ModJsonTemplates
               ],
               "result": {
                 "count": COUNT,
-                "id": "aestheticframes:OUTPUT_NAME"
-              }
+                "item": "aestheticframes:OUTPUT_NAME"
+              },
+              "show_notification": true
             }
             """;
 }

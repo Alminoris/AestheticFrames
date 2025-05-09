@@ -16,6 +16,7 @@
   ],
   "result": {
     "count": 1,
-    "id": "aestheticframes:vertical_frame_hawthorn"
-  }
+    "item": "aestheticframes:vertical_frame_hawthorn"
+  },
+  "show_notification": true
 }

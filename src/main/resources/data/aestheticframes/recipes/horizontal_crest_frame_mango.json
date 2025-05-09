@@ -16,6 +16,7 @@
   ],
   "result": {
     "count": 3,
-    "id": "aestheticframes:horizontal_crest_frame_mango"
-  }
+    "item": "aestheticframes:horizontal_crest_frame_mango"
+  },
+  "show_notification": true
 }

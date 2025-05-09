@@ -16,6 +16,7 @@
   ],
   "result": {
     "count": 1,
-    "id": "aestheticframes:vertical_frame_hazelnut"
-  }
+    "item": "aestheticframes:vertical_frame_hazelnut"
+  },
+  "show_notification": true
 }

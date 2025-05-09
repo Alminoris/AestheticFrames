@@ -16,6 +16,7 @@
   ],
   "result": {
     "count": 1,
-    "id": "aestheticframes:vertical_frame_dolomite_block"
-  }
+    "item": "aestheticframes:vertical_frame_dolomite_block"
+  },
+  "show_notification": true
 }

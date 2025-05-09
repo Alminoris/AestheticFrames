@@ -16,6 +16,7 @@
   ],
   "result": {
     "count": 1,
-    "id": "aestheticframes:vertical_frame_mango"
-  }
+    "item": "aestheticframes:vertical_frame_mango"
+  },
+  "show_notification": true
 }

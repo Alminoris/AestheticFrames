@@ -16,6 +16,7 @@
   ],
   "result": {
     "count": 4,
-    "id": "aestheticframes:frame_araucaria"
-  }
+    "item": "aestheticframes:frame_araucaria"
+  },
+  "show_notification": true
 }

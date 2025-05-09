@@ -16,6 +16,7 @@
   ],
   "result": {
     "count": 2,
-    "id": "aestheticframes:crest_frame_plum"
-  }
+    "item": "aestheticframes:crest_frame_plum"
+  },
+  "show_notification": true
 }

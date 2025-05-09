@@ -16,6 +16,7 @@
   ],
   "result": {
     "count": 2,
-    "id": "aestheticframes:crest_frame_quince"
-  }
+    "item": "aestheticframes:crest_frame_quince"
+  },
+  "show_notification": true
 }

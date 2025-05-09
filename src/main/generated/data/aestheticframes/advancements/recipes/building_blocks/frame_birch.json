@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_birch_log": {
+    "has_stripped_birch_log": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:birch_log"
+              "minecraft:stripped_birch_log"
             ]
           }
         ]
@@ -35,7 +35,7 @@
   "requirements": [
     [
       "has_whitened_white_terracotta",
-      "has_birch_log",
+      "has_stripped_birch_log",
       "has_the_recipe"
     ]
   ],

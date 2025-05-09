@@ -16,6 +16,7 @@
   ],
   "result": {
     "count": 4,
-    "id": "aestheticframes:perpendicular_crest_frame_bauhinia"
-  }
+    "item": "aestheticframes:perpendicular_crest_frame_bauhinia"
+  },
+  "show_notification": true
 }

@@ -16,6 +16,7 @@
   ],
   "result": {
     "count": 1,
-    "id": "aestheticframes:horizontal_frame_white_mulberry"
-  }
+    "item": "aestheticframes:horizontal_frame_white_mulberry"
+  },
+  "show_notification": true
 }

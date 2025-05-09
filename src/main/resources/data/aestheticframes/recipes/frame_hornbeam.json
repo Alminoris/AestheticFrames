@@ -16,6 +16,7 @@
   ],
   "result": {
     "count": 4,
-    "id": "aestheticframes:frame_hornbeam"
-  }
+    "item": "aestheticframes:frame_hornbeam"
+  },
+  "show_notification": true
 }

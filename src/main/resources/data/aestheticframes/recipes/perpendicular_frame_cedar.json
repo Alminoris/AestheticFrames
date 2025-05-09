@@ -16,6 +16,7 @@
   ],
   "result": {
     "count": 2,
-    "id": "aestheticframes:perpendicular_frame_cedar"
-  }
+    "item": "aestheticframes:perpendicular_frame_cedar"
+  },
+  "show_notification": true
 }

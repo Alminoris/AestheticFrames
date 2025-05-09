@@ -16,6 +16,7 @@
   ],
   "result": {
     "count": 4,
-    "id": "aestheticframes:frame_tamarisk"
-  }
+    "item": "aestheticframes:frame_tamarisk"
+  },
+  "show_notification": true
 }

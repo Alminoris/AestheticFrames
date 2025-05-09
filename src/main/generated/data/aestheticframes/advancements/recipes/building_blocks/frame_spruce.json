@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_spruce_log": {
+    "has_stripped_spruce_log": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:spruce_log"
+              "minecraft:stripped_spruce_log"
             ]
           }
         ]
@@ -35,7 +35,7 @@
   "requirements": [
     [
       "has_whitened_white_terracotta",
-      "has_spruce_log",
+      "has_stripped_spruce_log",
       "has_the_recipe"
     ]
   ],

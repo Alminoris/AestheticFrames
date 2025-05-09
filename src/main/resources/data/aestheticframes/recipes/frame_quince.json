@@ -16,6 +16,7 @@
   ],
   "result": {
     "count": 4,
-    "id": "aestheticframes:frame_quince"
-  }
+    "item": "aestheticframes:frame_quince"
+  },
+  "show_notification": true
 }

@@ -16,6 +16,7 @@
   ],
   "result": {
     "count": 1,
-    "id": "aestheticframes:horizontal_frame_viburnum"
-  }
+    "item": "aestheticframes:horizontal_frame_viburnum"
+  },
+  "show_notification": true
 }

@@ -1,24 +1,24 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_birch_log": {
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:birch_log"
-            ]
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    },
     "has_crest_frame_birch": {
       "conditions": {
         "items": [
           {
             "items": [
               "aestheticframes:crest_frame_birch"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_stripped_birch_log": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:stripped_birch_log"
             ]
           }
         ]
@@ -35,7 +35,7 @@
   "requirements": [
     [
       "has_crest_frame_birch",
-      "has_birch_log",
+      "has_stripped_birch_log",
       "has_the_recipe"
     ]
   ],

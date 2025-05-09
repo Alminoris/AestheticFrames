@@ -16,6 +16,7 @@
   ],
   "result": {
     "count": 4,
-    "id": "aestheticframes:frame_plum"
-  }
+    "item": "aestheticframes:frame_plum"
+  },
+  "show_notification": true
 }

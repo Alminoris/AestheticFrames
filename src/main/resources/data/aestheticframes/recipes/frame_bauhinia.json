@@ -16,6 +16,7 @@
   ],
   "result": {
     "count": 4,
-    "id": "aestheticframes:frame_bauhinia"
-  }
+    "item": "aestheticframes:frame_bauhinia"
+  },
+  "show_notification": true
 }

@@ -16,6 +16,7 @@
   ],
   "result": {
     "count": 1,
-    "id": "aestheticframes:vertical_frame_wild_cherry"
-  }
+    "item": "aestheticframes:vertical_frame_wild_cherry"
+  },
+  "show_notification": true
 }

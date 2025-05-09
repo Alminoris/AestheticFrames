@@ -16,6 +16,7 @@
   ],
   "result": {
     "count": 1,
-    "id": "aestheticframes:horizontal_frame_cedar"
-  }
+    "item": "aestheticframes:horizontal_frame_cedar"
+  },
+  "show_notification": true
 }

@@ -16,6 +16,7 @@
   ],
   "result": {
     "count": 1,
-    "id": "aestheticframes:horizontal_frame_bauhinia"
-  }
+    "item": "aestheticframes:horizontal_frame_bauhinia"
+  },
+  "show_notification": true
 }

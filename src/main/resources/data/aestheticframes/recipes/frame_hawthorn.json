@@ -16,6 +16,7 @@
   ],
   "result": {
     "count": 4,
-    "id": "aestheticframes:frame_hawthorn"
-  }
+    "item": "aestheticframes:frame_hawthorn"
+  },
+  "show_notification": true
 }

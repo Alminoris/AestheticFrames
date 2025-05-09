@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_bamboo_block": {
+    "has_stripped_bamboo_block": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:bamboo_block"
+              "minecraft:stripped_bamboo_block"
             ]
           }
         ]
@@ -35,7 +35,7 @@
   "requirements": [
     [
       "has_whitened_white_terracotta",
-      "has_bamboo_block",
+      "has_stripped_bamboo_block",
       "has_the_recipe"
     ]
   ],

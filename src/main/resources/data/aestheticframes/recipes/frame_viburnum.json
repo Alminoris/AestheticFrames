@@ -16,6 +16,7 @@
   ],
   "result": {
     "count": 4,
-    "id": "aestheticframes:frame_viburnum"
-  }
+    "item": "aestheticframes:frame_viburnum"
+  },
+  "show_notification": true
 }

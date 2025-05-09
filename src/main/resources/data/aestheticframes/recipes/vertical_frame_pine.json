@@ -16,6 +16,7 @@
   ],
   "result": {
     "count": 1,
-    "id": "aestheticframes:vertical_frame_pine"
-  }
+    "item": "aestheticframes:vertical_frame_pine"
+  },
+  "show_notification": true
 }

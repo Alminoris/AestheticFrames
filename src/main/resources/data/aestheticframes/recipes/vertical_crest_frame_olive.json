@@ -16,6 +16,7 @@
   ],
   "result": {
     "count": 3,
-    "id": "aestheticframes:vertical_crest_frame_olive"
-  }
+    "item": "aestheticframes:vertical_crest_frame_olive"
+  },
+  "show_notification": true
 }

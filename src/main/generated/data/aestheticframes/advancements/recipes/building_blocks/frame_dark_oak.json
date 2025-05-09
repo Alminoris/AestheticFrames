@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_dark_oak_log": {
+    "has_stripped_dark_oak_log": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:dark_oak_log"
+              "minecraft:stripped_dark_oak_log"
             ]
           }
         ]
@@ -35,7 +35,7 @@
   "requirements": [
     [
       "has_whitened_white_terracotta",
-      "has_dark_oak_log",
+      "has_stripped_dark_oak_log",
       "has_the_recipe"
     ]
   ],

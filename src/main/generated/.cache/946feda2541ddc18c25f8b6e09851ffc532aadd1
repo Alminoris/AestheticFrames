@@ -1,4 +1,4 @@
-// 1.20.1	2025-05-09T13:56:23.2201432	Aesthetic Frames/Block Loot Tables
+// 1.20.1	2025-05-09T19:31:23.3105173	Aesthetic Frames/Block Loot Tables
 64a04951bf7f6cb4770b14cd61b2d658823b460c data\aestheticframes\loot_tables\blocks\frame_granite.json
 8c278bf907c174ad53f0ca33ff9e71abff32cdc5 data\aestheticframes\loot_tables\blocks\crest_frame_basalt_side.json
 54290b0d6f36d192815d7d4642af7c11014e5dbc data\aestheticframes\loot_tables\blocks\vertical_crest_frame_deepslate.json
@@ -235,8 +235,8 @@ ff781ca71c3fd741526a9293dd0ab54be95cd22f data\aestheticframes\loot_tables\blocks
 b3d6da73b5448c2a360114e7678135089fc86c1a data\aestheticframes\loot_tables\blocks\frame_araucaria.json
 0347d75ebd653e3c24aeeb6e860cf4c9f1892d5c data\aestheticframes\loot_tables\blocks\frame_stone.json
 1b8cdceb131ac6c3c6f693a92a4c53ce4a1be9f5 data\aestheticframes\loot_tables\blocks\perpendicular_crest_frame_bamboo.json
-3bfb6eea93bb977017fb55d444575e6fa99f0d25 data\aestheticframes\loot_tables\blocks\frame_deepslate.json
 652da0e562387e6e7542f7b88bb9dfada88d2129 data\aestheticframes\loot_tables\blocks\crest_scaled_frame_cedar.json
+3bfb6eea93bb977017fb55d444575e6fa99f0d25 data\aestheticframes\loot_tables\blocks\frame_deepslate.json
 2fb796c98696f7c63f89361200269fdb71e88bcd data\aestheticframes\loot_tables\blocks\frame_andesite.json
 2eae511484bc74151ea8ec51db153b2bcc411ce9 data\aestheticframes\loot_tables\blocks\vertical_frame_white_mulberry.json
 ae950211ed82a92429f295f7d9dc5619e169b202 data\aestheticframes\loot_tables\blocks\frame_quince.json

@@ -16,6 +16,7 @@
   ],
   "result": {
     "count": 4,
-    "id": "aestheticframes:frame_saltmarsh_block"
-  }
+    "item": "aestheticframes:frame_saltmarsh_block"
+  },
+  "show_notification": true
 }

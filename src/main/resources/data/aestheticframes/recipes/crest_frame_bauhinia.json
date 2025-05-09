@@ -16,6 +16,7 @@
   ],
   "result": {
     "count": 2,
-    "id": "aestheticframes:crest_frame_bauhinia"
-  }
+    "item": "aestheticframes:crest_frame_bauhinia"
+  },
+  "show_notification": true
 }

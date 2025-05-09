@@ -6,7 +6,7 @@
       "item": "aestheticframes:crest_frame_birch"
     },
     "/": {
-      "item": "minecraft:birch_log"
+      "item": "minecraft:stripped_birch_log"
     }
   },
   "pattern": [

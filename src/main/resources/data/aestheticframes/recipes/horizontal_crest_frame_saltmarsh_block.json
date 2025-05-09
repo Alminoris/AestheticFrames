@@ -16,6 +16,7 @@
   ],
   "result": {
     "count": 3,
-    "id": "aestheticframes:horizontal_crest_frame_saltmarsh_block"
-  }
+    "item": "aestheticframes:horizontal_crest_frame_saltmarsh_block"
+  },
+  "show_notification": true
 }

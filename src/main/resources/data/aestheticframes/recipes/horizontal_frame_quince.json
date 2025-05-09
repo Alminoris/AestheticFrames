@@ -16,6 +16,7 @@
   ],
   "result": {
     "count": 1,
-    "id": "aestheticframes:horizontal_frame_quince"
-  }
+    "item": "aestheticframes:horizontal_frame_quince"
+  },
+  "show_notification": true
 }

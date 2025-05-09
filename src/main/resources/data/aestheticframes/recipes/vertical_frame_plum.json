@@ -16,6 +16,7 @@
   ],
   "result": {
     "count": 1,
-    "id": "aestheticframes:vertical_frame_plum"
-  }
+    "item": "aestheticframes:vertical_frame_plum"
+  },
+  "show_notification": true
 }
