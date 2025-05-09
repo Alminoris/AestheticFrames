@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "aestheticframes",
+	"version": "${version}",
+	"name": "Aesthetic Frames",
+	"description": "This mod is about various connectable frame block to make your building more flexible and creative!",
+	"authors": [
+		"Almiris (Alminoris)"
+	],
+	"contact": {
+		"homepage": "",
+		"sources": "https://github.com/Alminoris/AestheticFrames"
+	},
+	"license": "MIT",
+	"icon": "assets/aestheticframes/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.alminoris.aestheticframes.AestheticFrames"
+		],
+		"client": [
+			"net.alminoris.aestheticframes.AestheticFramesClient"
+		],
+		"fabric-datagen": [
+			"net.alminoris.aestheticframes.AestheticFramesDataGenerator"
+		]
+	},
+	"mixins": [
+		"aestheticframes.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*",
+		"fusion": ">=1.2.7"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
