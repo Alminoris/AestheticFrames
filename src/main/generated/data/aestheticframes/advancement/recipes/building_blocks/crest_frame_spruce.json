@@ -11,11 +11,11 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "has_spruce_log": {
+    "has_stripped_spruce_log": {
       "conditions": {
         "items": [
           {
-            "items": "minecraft:spruce_log"
+            "items": "minecraft:stripped_spruce_log"
           }
         ]
       },
@@ -32,7 +32,7 @@
     [
       "has_the_recipe",
       "has_frame_spruce",
-      "has_spruce_log"
+      "has_stripped_spruce_log"
     ]
   ],
   "rewards": {

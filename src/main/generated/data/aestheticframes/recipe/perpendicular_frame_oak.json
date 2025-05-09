@@ -6,7 +6,7 @@
       "item": "aestheticframes:frame_oak"
     },
     "/": {
-      "item": "minecraft:oak_log"
+      "item": "minecraft:stripped_oak_log"
     }
   },
   "pattern": [

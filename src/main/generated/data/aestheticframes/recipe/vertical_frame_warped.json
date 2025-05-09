@@ -6,7 +6,7 @@
       "item": "aestheticframes:frame_warped"
     },
     "/": {
-      "item": "minecraft:warped_stem"
+      "item": "minecraft:stripped_warped_stem"
     }
   },
   "pattern": [

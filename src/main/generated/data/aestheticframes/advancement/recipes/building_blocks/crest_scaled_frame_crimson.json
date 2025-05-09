@@ -11,11 +11,11 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "has_crimson_stem": {
+    "has_stripped_crimson_stem": {
       "conditions": {
         "items": [
           {
-            "items": "minecraft:crimson_stem"
+            "items": "minecraft:stripped_crimson_stem"
           }
         ]
       },
@@ -32,7 +32,7 @@
     [
       "has_the_recipe",
       "has_crest_frame_crimson",
-      "has_crimson_stem"
+      "has_stripped_crimson_stem"
     ]
   ],
   "rewards": {

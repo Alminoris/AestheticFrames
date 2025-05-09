@@ -1,21 +1,21 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_dark_oak_log": {
-      "conditions": {
-        "items": [
-          {
-            "items": "minecraft:dark_oak_log"
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    },
     "has_frame_dark_oak": {
       "conditions": {
         "items": [
           {
             "items": "aestheticframes:frame_dark_oak"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_stripped_dark_oak_log": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stripped_dark_oak_log"
           }
         ]
       },
@@ -32,7 +32,7 @@
     [
       "has_the_recipe",
       "has_frame_dark_oak",
-      "has_dark_oak_log"
+      "has_stripped_dark_oak_log"
     ]
   ],
   "rewards": {

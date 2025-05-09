@@ -6,7 +6,7 @@
       "item": "aestheticframes:frame_dark_oak"
     },
     "/": {
-      "item": "minecraft:dark_oak_log"
+      "item": "minecraft:stripped_dark_oak_log"
     }
   },
   "pattern": [

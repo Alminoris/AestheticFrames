@@ -11,11 +11,11 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "has_jungle_log": {
+    "has_stripped_jungle_log": {
       "conditions": {
         "items": [
           {
-            "items": "minecraft:jungle_log"
+            "items": "minecraft:stripped_jungle_log"
           }
         ]
       },
@@ -32,7 +32,7 @@
     [
       "has_the_recipe",
       "has_frame_jungle",
-      "has_jungle_log"
+      "has_stripped_jungle_log"
     ]
   ],
   "rewards": {

@@ -6,7 +6,7 @@
       "item": "aestheticframes:crest_frame_bamboo"
     },
     "/": {
-      "item": "minecraft:bamboo_block"
+      "item": "minecraft:stripped_bamboo_block"
     }
   },
   "pattern": [
