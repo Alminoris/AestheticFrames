@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "aestheticframes:frame_hazelnut"
+    },
+    "/": {
+      "item": "arborealnature:stripped_hazelnut_log"
+    }
+  },
+  "pattern": [
+    "///",
+    " # ",
+    "///"
+  ],
+  "result": {
+    "count": 3,
+    "id": "aestheticframes:vertical_crest_frame_hazelnut"
+  }
+}

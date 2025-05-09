@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "aestheticframes:crest_frame_white_mulberry"
+    },
+    "/": {
+      "item": "arborealnature:stripped_white_mulberry_log"
+    }
+  },
+  "pattern": [
+    "///",
+    "/#/",
+    "///"
+  ],
+  "result": {
+    "count": 4,
+    "id": "aestheticframes:crest_scaled_frame_white_mulberry"
+  }
+}

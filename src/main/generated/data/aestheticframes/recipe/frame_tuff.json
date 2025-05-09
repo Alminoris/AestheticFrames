@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "aestheticframes:whitened_white_terracotta"
+    },
+    "/": {
+      "item": "minecraft:tuff"
+    }
+  },
+  "pattern": [
+    "///",
+    "/#/",
+    "///"
+  ],
+  "result": {
+    "count": 4,
+    "id": "aestheticframes:frame_tuff"
+  }
+}

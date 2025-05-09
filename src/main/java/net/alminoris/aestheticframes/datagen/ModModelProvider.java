@@ -20,6 +20,8 @@ public class ModModelProvider extends FabricModelProvider
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator)
     {
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.WHITENED_WHITE_TERRACOTTA);
+
         for(String name : BlockSetsHelper.getWoods())
         {
             for(String frameName : BlockSetsHelper.FRAME_TYPES)
@@ -27,7 +29,10 @@ public class ModModelProvider extends FabricModelProvider
                 blockStateModelGenerator.registerSimpleState(ModBlocks.FRAMES.get(frameName+name));
                 blockStateModelGenerator.registerParentedItemModel(ModBlocks.FRAMES.get(frameName+name), Identifier.of(AestheticFrames.MOD_ID,
                         "block/"+ Registries.BLOCK.getId(ModBlocks.FRAMES.get(frameName+name)).getPath()));
+            }
 
+            for(String frameName : BlockSetsHelper.SCALED_FRAME_TYPES)
+            {
                 blockStateModelGenerator.registerSimpleState(ModBlocks.SCALED_FRAMES.get(frameName+name));
                 blockStateModelGenerator.registerParentedItemModel(ModBlocks.SCALED_FRAMES.get(frameName+name), Identifier.of(AestheticFrames.MOD_ID,
                         "block/"+ Registries.BLOCK.getId(ModBlocks.SCALED_FRAMES.get(frameName+name)).getPath()));
@@ -41,7 +46,10 @@ public class ModModelProvider extends FabricModelProvider
                 blockStateModelGenerator.registerSimpleState(ModBlocks.FRAMES.get(frameName+name));
                 blockStateModelGenerator.registerParentedItemModel(ModBlocks.FRAMES.get(frameName+name), Identifier.of(AestheticFrames.MOD_ID,
                         "block/"+ Registries.BLOCK.getId(ModBlocks.FRAMES.get(frameName+name)).getPath()));
+            }
 
+            for(String frameName : BlockSetsHelper.SCALED_FRAME_TYPES)
+            {
                 blockStateModelGenerator.registerSimpleState(ModBlocks.SCALED_FRAMES.get(frameName+name));
                 blockStateModelGenerator.registerParentedItemModel(ModBlocks.SCALED_FRAMES.get(frameName+name), Identifier.of(AestheticFrames.MOD_ID,
                         "block/"+ Registries.BLOCK.getId(ModBlocks.SCALED_FRAMES.get(frameName+name)).getPath()));

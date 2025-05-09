@@ -1,0 +1,43 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_frame_jungle": {
+      "conditions": {
+        "items": [
+          {
+            "items": "aestheticframes:frame_jungle"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_jungle_log": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:jungle_log"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "aestheticframes:vertical_frame_jungle"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_frame_jungle",
+      "has_jungle_log"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "aestheticframes:vertical_frame_jungle"
+    ]
+  }
+}

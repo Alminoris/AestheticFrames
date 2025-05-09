@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "aestheticframes:frame_fir"
+    },
+    "/": {
+      "item": "arborealnature:stripped_fir_log"
+    }
+  },
+  "pattern": [
+    " / ",
+    "/#/",
+    " / "
+  ],
+  "result": {
+    "count": 2,
+    "id": "aestheticframes:perpendicular_frame_fir"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "aestheticframes:frame_stone_bricks"
+    },
+    "/": {
+      "item": "minecraft:stone_bricks"
+    }
+  },
+  "pattern": [
+    "/",
+    "#",
+    "/"
+  ],
+  "result": {
+    "count": 1,
+    "id": "aestheticframes:vertical_frame_stone_bricks"
+  }
+}

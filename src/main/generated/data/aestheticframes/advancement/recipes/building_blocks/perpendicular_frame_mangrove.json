@@ -1,0 +1,43 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_frame_mangrove": {
+      "conditions": {
+        "items": [
+          {
+            "items": "aestheticframes:frame_mangrove"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_mangrove_log": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:mangrove_log"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "aestheticframes:perpendicular_frame_mangrove"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_frame_mangrove",
+      "has_mangrove_log"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "aestheticframes:perpendicular_frame_mangrove"
+    ]
+  }
+}

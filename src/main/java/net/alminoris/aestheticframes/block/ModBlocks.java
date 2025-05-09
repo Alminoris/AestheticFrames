@@ -16,6 +16,8 @@ import java.util.Hashtable;
 
 public class ModBlocks
 {
+    public static final Block WHITENED_WHITE_TERRACOTTA = registerBlock("whitened_white_terracotta", new Block(AbstractBlock.Settings.copy(Blocks.WHITE_TERRACOTTA)));
+
     public static final Dictionary<String, Block> FRAMES = new Hashtable<>()
     {{
         for(String frameName : BlockSetsHelper.FRAME_TYPES)

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "aestheticframes:frame_warped"
+    },
+    "/": {
+      "item": "minecraft:warped_stem"
+    }
+  },
+  "pattern": [
+    "/ /",
+    " # ",
+    "/ /"
+  ],
+  "result": {
+    "count": 2,
+    "id": "aestheticframes:crest_frame_warped"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "aestheticframes:frame_juniper"
+    },
+    "/": {
+      "item": "arborealnature:stripped_juniper_log"
+    }
+  },
+  "pattern": [
+    "/",
+    "#",
+    "/"
+  ],
+  "result": {
+    "count": 1,
+    "id": "aestheticframes:vertical_frame_juniper"
+  }
+}

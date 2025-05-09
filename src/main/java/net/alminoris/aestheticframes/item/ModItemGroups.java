@@ -19,6 +19,8 @@ public class ModItemGroups
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.afstab"))
                     .icon(() -> new ItemStack(ModBlocks.FRAMES.get("oak"))).entries((displayContext, entries) ->
                     {
+                        entries.add(ModBlocks.WHITENED_WHITE_TERRACOTTA);
+
                         for(String name : BlockSetsHelper.WOODS)
                         {
                             for (String frameName : BlockSetsHelper.FRAME_TYPES)

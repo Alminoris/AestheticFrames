@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "aestheticframes:frame_quartz_block_bottom"
+    },
+    "/": {
+      "item": "minecraft:quartz_block"
+    }
+  },
+  "pattern": [
+    "///",
+    " # ",
+    "///"
+  ],
+  "result": {
+    "count": 3,
+    "id": "aestheticframes:vertical_crest_frame_quartz_block_bottom"
+  }
+}

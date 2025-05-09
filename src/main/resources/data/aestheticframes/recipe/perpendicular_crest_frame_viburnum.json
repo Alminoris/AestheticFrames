@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "aestheticframes:frame_viburnum"
+    },
+    "/": {
+      "item": "arborealnature:stripped_viburnum_log"
+    }
+  },
+  "pattern": [
+    "///",
+    "/#/",
+    "///"
+  ],
+  "result": {
+    "count": 4,
+    "id": "aestheticframes:perpendicular_crest_frame_viburnum"
+  }
+}

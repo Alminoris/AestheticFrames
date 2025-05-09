@@ -18,6 +18,8 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider
     @Override
     public void generate()
     {
+        addDrop(ModBlocks.WHITENED_WHITE_TERRACOTTA);
+
         for(String name : BlockSetsHelper.getStones())
         {
 

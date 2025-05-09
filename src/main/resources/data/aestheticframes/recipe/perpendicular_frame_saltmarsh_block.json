@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "aestheticframes:frame_saltmarsh_block"
+    },
+    "/": {
+      "item": "wildfields:saltmarsh_block"
+    }
+  },
+  "pattern": [
+    " / ",
+    "/#/",
+    " / "
+  ],
+  "result": {
+    "count": 2,
+    "id": "aestheticframes:perpendicular_frame_saltmarsh_block"
+  }
+}
