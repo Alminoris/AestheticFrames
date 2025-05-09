@@ -6,16 +6,15 @@ import com.supermartijn642.fusion.api.model.data.ConnectingModelDataBuilder;
 import com.supermartijn642.fusion.api.predicate.DefaultConnectionPredicates;
 import com.supermartijn642.fusion.api.provider.FusionModelProvider;
 import net.alminoris.aestheticframes.AestheticFrames;
-import net.alminoris.aestheticframes.block.ModBlocks;
 import net.alminoris.aestheticframes.util.helper.BlockSetsHelper;
-import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
+import net.minecraft.data.DataGenerator;
 import net.minecraft.util.Identifier;
 
 public class ModFusionModelProvider extends FusionModelProvider
 {
-    public ModFusionModelProvider(FabricDataOutput output)
+    public ModFusionModelProvider(DataGenerator generator)
     {
-        super(AestheticFrames.MOD_ID, output);
+        super(AestheticFrames.MOD_ID, generator);
     }
 
     @Override

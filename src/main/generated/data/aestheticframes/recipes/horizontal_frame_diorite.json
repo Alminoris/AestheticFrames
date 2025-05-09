@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "building",
   "key": {
     "#": {
       "item": "aestheticframes:frame_diorite"
@@ -14,6 +13,5 @@
   ],
   "result": {
     "item": "aestheticframes:horizontal_frame_diorite"
-  },
-  "show_notification": true
+  }
 }

@@ -1,5 +1,6 @@
 {
   "fusion": {
-    "type": "fusion:connecting"
+    "type": "fusion:connecting",
+    "layout": "full"
   }
 }

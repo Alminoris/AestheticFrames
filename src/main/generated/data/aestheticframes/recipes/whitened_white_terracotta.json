@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "building",
   "key": {
     "#": {
       "item": "minecraft:white_terracotta"
@@ -14,6 +13,5 @@
   ],
   "result": {
     "item": "aestheticframes:whitened_white_terracotta"
-  },
-  "show_notification": true
+  }
 }

@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "building",
   "key": {
     "#": {
       "item": "aestheticframes:crest_frame_diorite"
@@ -17,6 +16,5 @@
   "result": {
     "count": 4,
     "item": "aestheticframes:crest_scaled_frame_diorite"
-  },
-  "show_notification": true
+  }
 }

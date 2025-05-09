@@ -3,18 +3,18 @@ package net.alminoris.aestheticframes.datagen;
 import net.alminoris.aestheticframes.AestheticFrames;
 import net.alminoris.aestheticframes.block.ModBlocks;
 import net.alminoris.aestheticframes.util.helper.BlockSetsHelper;
-import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
+import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.minecraft.data.client.BlockStateModelGenerator;
 import net.minecraft.data.client.ItemModelGenerator;
-import net.minecraft.registry.Registries;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.registry.Registry;
 
 public class ModModelProvider extends FabricModelProvider
 {
-    public ModModelProvider(FabricDataOutput output)
+    public ModModelProvider(FabricDataGenerator dataGenerator)
     {
-        super(output);
+        super(dataGenerator);
     }
 
     @Override
@@ -28,14 +28,14 @@ public class ModModelProvider extends FabricModelProvider
             {
                 blockStateModelGenerator.registerSimpleState(ModBlocks.FRAMES.get(frameName+name));
                 blockStateModelGenerator.registerParentedItemModel(ModBlocks.FRAMES.get(frameName+name), Identifier.of(AestheticFrames.MOD_ID,
-                        "block/"+ Registries.BLOCK.getId(ModBlocks.FRAMES.get(frameName+name)).getPath()));
+                        "block/"+ Registry.BLOCK.getId(ModBlocks.FRAMES.get(frameName+name)).getPath()));
             }
 
             for(String frameName : BlockSetsHelper.SCALED_FRAME_TYPES)
             {
                 blockStateModelGenerator.registerSimpleState(ModBlocks.SCALED_FRAMES.get(frameName+name));
                 blockStateModelGenerator.registerParentedItemModel(ModBlocks.SCALED_FRAMES.get(frameName+name), Identifier.of(AestheticFrames.MOD_ID,
-                        "block/"+ Registries.BLOCK.getId(ModBlocks.SCALED_FRAMES.get(frameName+name)).getPath()));
+                        "block/"+ Registry.BLOCK.getId(ModBlocks.SCALED_FRAMES.get(frameName+name)).getPath()));
             }
         }
 
@@ -45,14 +45,14 @@ public class ModModelProvider extends FabricModelProvider
             {
                 blockStateModelGenerator.registerSimpleState(ModBlocks.FRAMES.get(frameName+name));
                 blockStateModelGenerator.registerParentedItemModel(ModBlocks.FRAMES.get(frameName+name), Identifier.of(AestheticFrames.MOD_ID,
-                        "block/"+ Registries.BLOCK.getId(ModBlocks.FRAMES.get(frameName+name)).getPath()));
+                        "block/"+ Registry.BLOCK.getId(ModBlocks.FRAMES.get(frameName+name)).getPath()));
             }
 
             for(String frameName : BlockSetsHelper.SCALED_FRAME_TYPES)
             {
                 blockStateModelGenerator.registerSimpleState(ModBlocks.SCALED_FRAMES.get(frameName+name));
                 blockStateModelGenerator.registerParentedItemModel(ModBlocks.SCALED_FRAMES.get(frameName+name), Identifier.of(AestheticFrames.MOD_ID,
-                        "block/"+ Registries.BLOCK.getId(ModBlocks.SCALED_FRAMES.get(frameName+name)).getPath()));
+                        "block/"+ Registry.BLOCK.getId(ModBlocks.SCALED_FRAMES.get(frameName+name)).getPath()));
             }
         }
     }

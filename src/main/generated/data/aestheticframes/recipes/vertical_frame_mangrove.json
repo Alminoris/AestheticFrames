@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "building",
   "key": {
     "#": {
       "item": "aestheticframes:frame_mangrove"
@@ -16,6 +15,5 @@
   ],
   "result": {
     "item": "aestheticframes:vertical_frame_mangrove"
-  },
-  "show_notification": true
+  }
 }

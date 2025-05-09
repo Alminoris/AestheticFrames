@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "building",
   "key": {
     "#": {
       "item": "aestheticframes:frame_stone"
@@ -14,6 +13,5 @@
   ],
   "result": {
     "item": "aestheticframes:horizontal_frame_stone"
-  },
-  "show_notification": true
+  }
 }

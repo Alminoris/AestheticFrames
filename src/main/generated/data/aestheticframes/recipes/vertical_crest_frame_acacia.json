@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "building",
   "key": {
     "#": {
       "item": "aestheticframes:frame_acacia"
@@ -17,6 +16,5 @@
   "result": {
     "count": 3,
     "item": "aestheticframes:vertical_crest_frame_acacia"
-  },
-  "show_notification": true
+  }
 }

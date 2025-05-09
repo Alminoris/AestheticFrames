@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "building",
   "key": {
     "#": {
       "item": "aestheticframes:frame_quartz_block_bottom"
@@ -17,6 +16,5 @@
   "result": {
     "count": 2,
     "item": "aestheticframes:perpendicular_frame_quartz_block_bottom"
-  },
-  "show_notification": true
+  }
 }

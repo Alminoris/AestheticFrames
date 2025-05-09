@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "building",
   "key": {
     "#": {
       "item": "aestheticframes:frame_oak"
@@ -17,6 +16,5 @@
   "result": {
     "count": 3,
     "item": "aestheticframes:horizontal_crest_frame_oak"
-  },
-  "show_notification": true
+  }
 }

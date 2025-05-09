@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "building",
   "key": {
     "#": {
       "item": "aestheticframes:crest_frame_sandstone"
@@ -17,6 +16,5 @@
   "result": {
     "count": 4,
     "item": "aestheticframes:crest_scaled_frame_sandstone"
-  },
-  "show_notification": true
+  }
 }

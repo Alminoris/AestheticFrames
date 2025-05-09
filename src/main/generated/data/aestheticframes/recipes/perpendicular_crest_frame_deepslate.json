@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "building",
   "key": {
     "#": {
       "item": "aestheticframes:frame_deepslate"
@@ -17,6 +16,5 @@
   "result": {
     "count": 4,
     "item": "aestheticframes:perpendicular_crest_frame_deepslate"
-  },
-  "show_notification": true
+  }
 }

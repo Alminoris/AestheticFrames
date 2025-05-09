@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "building",
   "key": {
     "#": {
       "item": "aestheticframes:frame_warped"
@@ -14,6 +13,5 @@
   ],
   "result": {
     "item": "aestheticframes:horizontal_frame_warped"
-  },
-  "show_notification": true
+  }
 }

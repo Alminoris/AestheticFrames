@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "building",
   "key": {
     "#": {
       "item": "aestheticframes:frame_basalt_side"
@@ -14,6 +13,5 @@
   ],
   "result": {
     "item": "aestheticframes:horizontal_frame_basalt_side"
-  },
-  "show_notification": true
+  }
 }
