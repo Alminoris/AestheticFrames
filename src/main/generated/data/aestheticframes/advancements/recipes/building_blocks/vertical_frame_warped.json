@@ -43,6 +43,5 @@
     "recipes": [
       "aestheticframes:vertical_frame_warped"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

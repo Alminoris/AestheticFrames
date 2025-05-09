@@ -14,9 +14,7 @@ import net.minecraft.util.Identifier;
 
 public class ModItemGroups
 {
-    public static final ItemGroup AFS_TAB = Registry.register(Registries.ITEM_GROUP,
-            Identifier.of(AestheticFrames.MOD_ID, "afstab"),
-            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.afstab"))
+    public static final ItemGroup AFS_TAB = FabricItemGroup.builder(new Identifier(AestheticFrames.MOD_ID, "afstab")).displayName(Text.translatable("itemgroup.afstab"))
                     .icon(() -> new ItemStack(ModBlocks.FRAMES.get("oak"))).entries((displayContext, entries) ->
                     {
                         entries.add(ModBlocks.WHITENED_WHITE_TERRACOTTA);
@@ -98,7 +96,7 @@ public class ModItemGroups
                                     entries.add(ModBlocks.SCALED_FRAMES.get(frameName+name));
                             }
                         }
-                    }).build());
+                    }).build();
 
     public static void registerItemGroups()
     {

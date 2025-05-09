@@ -43,6 +43,5 @@
     "recipes": [
       "aestheticframes:frame_birch"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

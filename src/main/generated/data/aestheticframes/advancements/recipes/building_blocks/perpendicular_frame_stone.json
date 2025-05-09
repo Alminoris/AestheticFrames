@@ -43,6 +43,5 @@
     "recipes": [
       "aestheticframes:perpendicular_frame_stone"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

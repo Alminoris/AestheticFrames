@@ -43,6 +43,5 @@
     "recipes": [
       "aestheticframes:horizontal_frame_acacia"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

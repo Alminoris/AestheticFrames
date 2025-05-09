@@ -43,6 +43,5 @@
     "recipes": [
       "aestheticframes:frame_granite"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

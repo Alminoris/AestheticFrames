@@ -1,4 +1,4 @@
-// 1.20.1	2025-05-09T19:31:23.3155049	Aesthetic Frames/Fusion Model Provider: Aesthetic Frames
+// 1.19.4	2025-05-09T19:52:04.7879955	Aesthetic Frames/Fusion Model Provider: Aesthetic Frames
 ac17b2651afff65a7dfb2203a815d1c5ad4166d4 assets\aestheticframes\models\block\perpendicular_frame_mud_bricks.json
 be9439479bde4a6a0bc6f88d79f4e505f5cf7aaf assets\aestheticframes\models\block\horizontal_crest_frame_quince.json
 a0d8ffa571d4656f24dd3bcf6280cc980896b6dc assets\aestheticframes\models\block\horizontal_frame_fir.json
@@ -267,8 +267,8 @@ ef4f923f4637ccd883f15dfad84c3b9bbbe3287a assets\aestheticframes\models\block\fra
 8334ed446b29a9d7d1f933a82a197fdf31bde142 assets\aestheticframes\models\block\vertical_frame_saltmarsh_block.json
 efd1b80e6ca782542310cce2dce065386e38e8c8 assets\aestheticframes\models\block\perpendicular_crest_frame_hawthorn.json
 3c130197ff76f95bc702be994c5b3c54bdae9f8e assets\aestheticframes\models\block\vertical_crest_frame_dolomite_block.json
-debfaf0c8dd92f1445838ca83950ac6fc6343fe2 assets\aestheticframes\models\block\horizontal_frame_araucaria.json
 741e2008e1d96141570721ccb7aea39df87165e3 assets\aestheticframes\models\block\horizontal_crest_frame_bricks.json
+debfaf0c8dd92f1445838ca83950ac6fc6343fe2 assets\aestheticframes\models\block\horizontal_frame_araucaria.json
 253da934a169f7c690d6cbf4da12c3a7f2f77f9b assets\aestheticframes\models\block\vertical_frame_hornbeam.json
 32eae4d8f2b7f66ec14a8e85fca9b6020cd27ffb assets\aestheticframes\models\block\crest_frame_stone.json
 f39fe5c08d2fa182710fd43b01a7ee95002bab41 assets\aestheticframes\models\block\vertical_frame_tuff.json

@@ -43,6 +43,5 @@
     "recipes": [
       "aestheticframes:crest_scaled_frame_basalt_side"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

@@ -43,6 +43,5 @@
     "recipes": [
       "aestheticframes:crest_frame_stone_bricks"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

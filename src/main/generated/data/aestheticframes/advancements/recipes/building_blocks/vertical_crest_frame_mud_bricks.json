@@ -43,6 +43,5 @@
     "recipes": [
       "aestheticframes:vertical_crest_frame_mud_bricks"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

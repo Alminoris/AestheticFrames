@@ -43,6 +43,5 @@
     "recipes": [
       "aestheticframes:horizontal_frame_dark_oak"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

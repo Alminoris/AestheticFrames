@@ -43,6 +43,5 @@
     "recipes": [
       "aestheticframes:horizontal_frame_stone"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

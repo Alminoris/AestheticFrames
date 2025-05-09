@@ -43,6 +43,5 @@
     "recipes": [
       "aestheticframes:crest_scaled_frame_sandstone"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

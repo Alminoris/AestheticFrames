@@ -43,6 +43,5 @@
     "recipes": [
       "aestheticframes:whitened_white_terracotta"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

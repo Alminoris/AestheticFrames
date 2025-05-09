@@ -42,7 +42,7 @@ dependencies {
 	mappings "net.fabricmc:yarn:${project.yarn_mappings}:v2"
 	modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
 
-	modImplementation "maven.modrinth:fusion-connected-textures:${fusion_version}-fabric-mc1.20.1"
+	modImplementation "maven.modrinth:fusion-connected-textures:${fusion_version}-fabric-mc1.19.4"
 
 	// Fabric API. This is technically optional, but you probably want it anyway.
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"

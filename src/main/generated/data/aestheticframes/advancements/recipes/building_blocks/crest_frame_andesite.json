@@ -43,6 +43,5 @@
     "recipes": [
       "aestheticframes:crest_frame_andesite"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

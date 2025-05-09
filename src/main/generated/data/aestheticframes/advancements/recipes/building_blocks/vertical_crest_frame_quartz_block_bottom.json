@@ -43,6 +43,5 @@
     "recipes": [
       "aestheticframes:vertical_crest_frame_quartz_block_bottom"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }
