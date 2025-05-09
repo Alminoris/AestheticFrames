@@ -50,22 +50,6 @@ public class ModBlocks
         }
     }};
 
-    public static final Dictionary<String, Block> BOUNDLESS_FRAMES = new Hashtable<>()
-    {{
-        for(String frameName : BlockSetsHelper.BOUNDLESS_FRAME_TYPES)
-        {
-            for(String name : BlockSetsHelper.getWoods())
-            {
-                put(frameName+name, registerBlock(frameName+"boundless_frame_"+name, new Block(AbstractBlock.Settings.copy(Blocks.WHITE_TERRACOTTA))));
-            }
-
-            for(String name : BlockSetsHelper.getStones())
-            {
-                put(frameName+name, registerBlock(frameName+"boundless_frame_"+name, new Block(AbstractBlock.Settings.copy(Blocks.WHITE_TERRACOTTA))));
-            }
-        }
-    }};
-
     public static Block registerBlock(String name, Block block)
     {
         registerBlockItem(name, block);
