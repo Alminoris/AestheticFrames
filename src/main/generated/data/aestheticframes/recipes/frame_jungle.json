@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "aestheticframes:whitened_white_terracotta"
+    },
+    "/": {
+      "item": "minecraft:jungle_log"
+    }
+  },
+  "pattern": [
+    "///",
+    "/#/",
+    "///"
+  ],
+  "result": {
+    "count": 4,
+    "item": "aestheticframes:frame_jungle"
+  },
+  "show_notification": true
+}

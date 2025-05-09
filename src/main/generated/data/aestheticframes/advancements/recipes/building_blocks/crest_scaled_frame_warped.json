@@ -1,0 +1,48 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_crest_frame_warped": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "aestheticframes:crest_frame_warped"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "aestheticframes:crest_scaled_frame_warped"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_warped_stem": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:warped_stem"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_crest_frame_warped",
+      "has_warped_stem",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "aestheticframes:crest_scaled_frame_warped"
+    ]
+  },
+  "sends_telemetry_event": false
+}

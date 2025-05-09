@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "aestheticframes:whitened_white_terracotta"
+    },
+    "/": {
+      "item": "minecraft:diorite"
+    }
+  },
+  "pattern": [
+    "///",
+    "/#/",
+    "///"
+  ],
+  "result": {
+    "count": 4,
+    "item": "aestheticframes:frame_diorite"
+  },
+  "show_notification": true
+}

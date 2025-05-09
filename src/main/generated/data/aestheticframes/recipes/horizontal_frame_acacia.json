@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "aestheticframes:frame_acacia"
+    },
+    "/": {
+      "item": "minecraft:acacia_log"
+    }
+  },
+  "pattern": [
+    "/#/"
+  ],
+  "result": {
+    "item": "aestheticframes:horizontal_frame_acacia"
+  },
+  "show_notification": true
+}

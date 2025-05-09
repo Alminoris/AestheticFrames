@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "aestheticframes:whitened_white_terracotta"
+    },
+    "/": {
+      "item": "minecraft:dark_oak_log"
+    }
+  },
+  "pattern": [
+    "///",
+    "/#/",
+    "///"
+  ],
+  "result": {
+    "count": 4,
+    "item": "aestheticframes:frame_dark_oak"
+  },
+  "show_notification": true
+}

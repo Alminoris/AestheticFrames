@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "aestheticframes:crest_frame_stone"
+    },
+    "/": {
+      "item": "minecraft:stone"
+    }
+  },
+  "pattern": [
+    "///",
+    "/#/",
+    "///"
+  ],
+  "result": {
+    "count": 4,
+    "item": "aestheticframes:crest_scaled_frame_stone"
+  },
+  "show_notification": true
+}

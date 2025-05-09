@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "aestheticframes:frame_spruce"
+    },
+    "/": {
+      "item": "minecraft:spruce_log"
+    }
+  },
+  "pattern": [
+    "/#/"
+  ],
+  "result": {
+    "item": "aestheticframes:horizontal_frame_spruce"
+  },
+  "show_notification": true
+}

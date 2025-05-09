@@ -7,25 +7,24 @@ import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
-import net.minecraft.data.server.recipe.RecipeExporter;
+import net.minecraft.data.server.recipe.RecipeJsonProvider;
 import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
 import net.minecraft.item.Items;
 import net.minecraft.recipe.book.RecipeCategory;
 import net.minecraft.registry.Registries;
-import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.util.Identifier;
 
-import java.util.concurrent.CompletableFuture;
+import java.util.function.Consumer;
 
 public class ModRecipeProvider extends FabricRecipeProvider
 {
-    public ModRecipeProvider(FabricDataOutput output, CompletableFuture<RegistryWrapper.WrapperLookup> registriesFuture)
+    public ModRecipeProvider(FabricDataOutput output)
     {
-        super(output, registriesFuture);
+        super(output);
     }
 
     @Override
-    public void generate(RecipeExporter recipeExporter)
+    public void generate(Consumer<RecipeJsonProvider> recipeExporter)
     {
         ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.WHITENED_WHITE_TERRACOTTA, 1)
                 .pattern("#/")
@@ -37,7 +36,7 @@ public class ModRecipeProvider extends FabricRecipeProvider
         
         for(String name : BlockSetsHelper.STONES)
         {
-            Block block = Registries.BLOCK.get(Identifier.ofVanilla(name.equals("basalt_side") ? "basalt" :
+            Block block = Registries.BLOCK.get(Identifier.of("minecraft", name.equals("basalt_side") ? "basalt" :
                     (name.equals("quartz_block_bottom") ? "quartz_block" : name)));
 
             registerFrame(recipeExporter, ModBlocks.FRAMES.get(name), block);
@@ -76,7 +75,7 @@ public class ModRecipeProvider extends FabricRecipeProvider
         for(String name : BlockSetsHelper.WOODS)
         {
             String blockName = (name.equals("crimson") || name.equals("warped")) ? "stem" : (name.equals("bamboo") ? "block" : "log");
-            Block block = Registries.BLOCK.get(Identifier.ofVanilla(name+"_"+blockName));
+            Block block = Registries.BLOCK.get(Identifier.of("minecraft",name+"_"+blockName));
 
             registerFrame(recipeExporter, ModBlocks.FRAMES.get(name), block);
             registerCrestFrame(recipeExporter, ModBlocks.FRAMES.get("crest_"+name), ModBlocks.FRAMES.get(name), block);
@@ -134,7 +133,7 @@ public class ModRecipeProvider extends FabricRecipeProvider
         }
     }
 
-    private void registerFrame(RecipeExporter recipeExporter, Block frame, Block strippedOak)
+    private void registerFrame(Consumer<RecipeJsonProvider> recipeExporter, Block frame, Block strippedOak)
     {
         ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, frame, 4)
                 .pattern("///")
@@ -147,7 +146,7 @@ public class ModRecipeProvider extends FabricRecipeProvider
                 .offerTo(recipeExporter);
     }
 
-    private void registerCrestFrame(RecipeExporter recipeExporter, Block crestFrame, Block frame, Block strippedOak)
+    private void registerCrestFrame(Consumer<RecipeJsonProvider> recipeExporter, Block crestFrame, Block frame, Block strippedOak)
     {
         ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, crestFrame, 2)
                 .pattern("/ /")
@@ -160,7 +159,7 @@ public class ModRecipeProvider extends FabricRecipeProvider
                 .offerTo(recipeExporter);
     }
 
-    private void registerHorizontalFrame(RecipeExporter recipeExporter, Block horizontalFrame, Block frame, Block strippedOak)
+    private void registerHorizontalFrame(Consumer<RecipeJsonProvider> recipeExporter, Block horizontalFrame, Block frame, Block strippedOak)
     {
         ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, horizontalFrame, 1)
                 .pattern("/#/")
@@ -171,7 +170,7 @@ public class ModRecipeProvider extends FabricRecipeProvider
                 .offerTo(recipeExporter);
     }
 
-    private void registerVerticalFrame(RecipeExporter recipeExporter, Block verticalFrame, Block frame, Block strippedOak)
+    private void registerVerticalFrame(Consumer<RecipeJsonProvider> recipeExporter, Block verticalFrame, Block frame, Block strippedOak)
     {
         ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, verticalFrame, 1)
                 .pattern("/")
@@ -184,7 +183,7 @@ public class ModRecipeProvider extends FabricRecipeProvider
                 .offerTo(recipeExporter);
     }
 
-    private void registerPerpendicularFrame(RecipeExporter recipeExporter, Block perpendicularFrame, Block frame, Block strippedOak)
+    private void registerPerpendicularFrame(Consumer<RecipeJsonProvider> recipeExporter, Block perpendicularFrame, Block frame, Block strippedOak)
     {
         ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, perpendicularFrame, 2)
                 .pattern(" / ")
@@ -197,7 +196,7 @@ public class ModRecipeProvider extends FabricRecipeProvider
                 .offerTo(recipeExporter);
     }
 
-    private void registerPerpendicularCrestFrame(RecipeExporter recipeExporter, Block perpendicularCrestFrame, Block frame, Block strippedOak)
+    private void registerPerpendicularCrestFrame(Consumer<RecipeJsonProvider> recipeExporter, Block perpendicularCrestFrame, Block frame, Block strippedOak)
     {
         ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, perpendicularCrestFrame, 4)
                 .pattern("///")
@@ -210,7 +209,7 @@ public class ModRecipeProvider extends FabricRecipeProvider
                 .offerTo(recipeExporter);
     }
 
-    private void registerHorizontalCrestFrame(RecipeExporter recipeExporter, Block horizontalCrestFrame, Block frame, Block strippedOak)
+    private void registerHorizontalCrestFrame(Consumer<RecipeJsonProvider> recipeExporter, Block horizontalCrestFrame, Block frame, Block strippedOak)
     {
         ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, horizontalCrestFrame, 3)
                 .pattern("/ /")
@@ -223,7 +222,7 @@ public class ModRecipeProvider extends FabricRecipeProvider
                 .offerTo(recipeExporter);
     }
 
-    private void registerVerticalCrestFrame(RecipeExporter recipeExporter, Block verticalCrestFrame, Block frame, Block strippedOak)
+    private void registerVerticalCrestFrame(Consumer<RecipeJsonProvider> recipeExporter, Block verticalCrestFrame, Block frame, Block strippedOak)
     {
         ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, verticalCrestFrame, 3)
                 .pattern("///")
@@ -236,7 +235,7 @@ public class ModRecipeProvider extends FabricRecipeProvider
                 .offerTo(recipeExporter);
     }
 
-    private void registerScaledCrestFrame(RecipeExporter recipeExporter, Block scaledCrestFrame, Block crestFrame, Block strippedOak)
+    private void registerScaledCrestFrame(Consumer<RecipeJsonProvider> recipeExporter, Block scaledCrestFrame, Block crestFrame, Block strippedOak)
     {
         ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, scaledCrestFrame, 4)
                 .pattern("///")

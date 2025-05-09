@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "aestheticframes:frame_deepslate"
+    },
+    "/": {
+      "item": "minecraft:deepslate"
+    }
+  },
+  "pattern": [
+    "/#/"
+  ],
+  "result": {
+    "item": "aestheticframes:horizontal_frame_deepslate"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "aestheticframes:frame_crimson"
+    },
+    "/": {
+      "item": "minecraft:crimson_stem"
+    }
+  },
+  "pattern": [
+    "/",
+    "#",
+    "/"
+  ],
+  "result": {
+    "item": "aestheticframes:vertical_frame_crimson"
+  },
+  "show_notification": true
+}

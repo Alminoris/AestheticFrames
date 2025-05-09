@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "aestheticframes:crest_frame_jungle"
+    },
+    "/": {
+      "item": "minecraft:jungle_log"
+    }
+  },
+  "pattern": [
+    "///",
+    "/#/",
+    "///"
+  ],
+  "result": {
+    "count": 4,
+    "item": "aestheticframes:crest_scaled_frame_jungle"
+  },
+  "show_notification": true
+}

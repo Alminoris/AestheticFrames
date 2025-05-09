@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "aestheticframes:crest_frame_blackstone"
+    },
+    "/": {
+      "item": "minecraft:blackstone"
+    }
+  },
+  "pattern": [
+    "///",
+    "/#/",
+    "///"
+  ],
+  "result": {
+    "count": 4,
+    "item": "aestheticframes:crest_scaled_frame_blackstone"
+  },
+  "show_notification": true
+}

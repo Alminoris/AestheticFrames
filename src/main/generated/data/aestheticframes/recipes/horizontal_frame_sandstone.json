@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "aestheticframes:frame_sandstone"
+    },
+    "/": {
+      "item": "minecraft:sandstone"
+    }
+  },
+  "pattern": [
+    "/#/"
+  ],
+  "result": {
+    "item": "aestheticframes:horizontal_frame_sandstone"
+  },
+  "show_notification": true
+}

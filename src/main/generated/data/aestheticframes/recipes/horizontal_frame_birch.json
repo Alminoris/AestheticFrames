@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "aestheticframes:frame_birch"
+    },
+    "/": {
+      "item": "minecraft:birch_log"
+    }
+  },
+  "pattern": [
+    "/#/"
+  ],
+  "result": {
+    "item": "aestheticframes:horizontal_frame_birch"
+  },
+  "show_notification": true
+}

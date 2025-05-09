@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "aestheticframes:frame_diorite"
+    },
+    "/": {
+      "item": "minecraft:diorite"
+    }
+  },
+  "pattern": [
+    "///",
+    " # ",
+    "///"
+  ],
+  "result": {
+    "count": 3,
+    "item": "aestheticframes:vertical_crest_frame_diorite"
+  },
+  "show_notification": true
+}
