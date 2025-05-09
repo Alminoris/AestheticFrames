@@ -1,5 +1,8 @@
 {
   "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "/#/"
+  ],
   "key": {
     "#": {
       "item": "aestheticframes:frame_bricks"
@@ -8,9 +11,6 @@
       "item": "minecraft:bricks"
     }
   },
-  "pattern": [
-    "/#/"
-  ],
   "result": {
     "item": "aestheticframes:horizontal_frame_bricks"
   }

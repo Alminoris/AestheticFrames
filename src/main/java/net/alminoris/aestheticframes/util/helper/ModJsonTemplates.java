@@ -5,7 +5,11 @@ public class ModJsonTemplates
     public static String SHAPED_RECIPE = """
             {
               "type": "minecraft:crafting_shaped",
-              "category": "building",
+              "pattern": [
+                PATTERN1
+                PATTERN2
+                PATTERN3
+              ],
               "key": {
                 "#": {
                   "item": "INGREDIENT_NAME"
@@ -14,11 +18,6 @@ public class ModJsonTemplates
                   "item": "LOG_NAME"
                 }
               },
-              "pattern": [
-                PATTERN1
-                PATTERN2
-                PATTERN3
-              ],
               "result": {
                 "count": COUNT,
                 "item": "aestheticframes:OUTPUT_NAME"

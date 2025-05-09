@@ -1,6 +1,10 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "building",
+  "pattern": [
+    "///",
+    "/#/",
+    "///"
+  ],
   "key": {
     "#": {
       "item": "aestheticframes:crest_frame_hornbeam"
@@ -9,11 +13,6 @@
       "item": "arborealnature:stripped_hornbeam_log"
     }
   },
-  "pattern": [
-    "///",
-    "/#/",
-    "///"
-  ],
   "result": {
     "count": 4,
     "item": "aestheticframes:crest_scaled_frame_hornbeam"

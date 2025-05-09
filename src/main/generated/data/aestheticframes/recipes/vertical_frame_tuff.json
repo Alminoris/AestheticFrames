@@ -1,5 +1,10 @@
 {
   "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "/",
+    "#",
+    "/"
+  ],
   "key": {
     "#": {
       "item": "aestheticframes:frame_tuff"
@@ -8,11 +13,6 @@
       "item": "minecraft:tuff"
     }
   },
-  "pattern": [
-    "/",
-    "#",
-    "/"
-  ],
   "result": {
     "item": "aestheticframes:vertical_frame_tuff"
   }

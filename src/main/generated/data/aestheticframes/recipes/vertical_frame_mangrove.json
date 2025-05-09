@@ -1,18 +1,16 @@
 {
   "type": "minecraft:crafting_shaped",
-  "key": {
-    "#": {
-      "item": "aestheticframes:frame_mangrove"
-    },
-    "/": {
-      "item": "minecraft:stripped_mangrove_log"
-    }
-  },
   "pattern": [
     "/",
     "#",
     "/"
   ],
+  "key": {
+    "#": {
+      "item": "aestheticframes:frame_mangrove"
+    },
+    "/": []
+  },
   "result": {
     "item": "aestheticframes:vertical_frame_mangrove"
   }

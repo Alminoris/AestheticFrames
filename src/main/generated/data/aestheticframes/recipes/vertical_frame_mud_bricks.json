@@ -1,18 +1,16 @@
 {
   "type": "minecraft:crafting_shaped",
-  "key": {
-    "#": {
-      "item": "aestheticframes:frame_mud_bricks"
-    },
-    "/": {
-      "item": "minecraft:mud_bricks"
-    }
-  },
   "pattern": [
     "/",
     "#",
     "/"
   ],
+  "key": {
+    "#": {
+      "item": "aestheticframes:frame_mud_bricks"
+    },
+    "/": []
+  },
   "result": {
     "item": "aestheticframes:vertical_frame_mud_bricks"
   }

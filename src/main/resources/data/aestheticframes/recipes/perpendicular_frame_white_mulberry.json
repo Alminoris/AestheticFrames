@@ -1,6 +1,10 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "building",
+  "pattern": [
+    " / ",
+    "/#/",
+    " / "
+  ],
   "key": {
     "#": {
       "item": "aestheticframes:frame_white_mulberry"
@@ -9,11 +13,6 @@
       "item": "arborealnature:stripped_white_mulberry_log"
     }
   },
-  "pattern": [
-    " / ",
-    "/#/",
-    " / "
-  ],
   "result": {
     "count": 2,
     "item": "aestheticframes:perpendicular_frame_white_mulberry"

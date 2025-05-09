@@ -1,5 +1,8 @@
 {
   "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "/#/"
+  ],
   "key": {
     "#": {
       "item": "aestheticframes:frame_warped"
@@ -8,9 +11,6 @@
       "item": "minecraft:stripped_warped_stem"
     }
   },
-  "pattern": [
-    "/#/"
-  ],
   "result": {
     "item": "aestheticframes:horizontal_frame_warped"
   }

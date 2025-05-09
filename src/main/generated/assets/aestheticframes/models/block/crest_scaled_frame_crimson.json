@@ -1,16 +1,16 @@
 {
-  "type": "fusion:connecting",
   "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "aestheticframes:block/crest_scaled_frame_crimson"
+  },
   "connections": {
-    "type": "fusion:or",
     "predicates": [
       {
         "type": "fusion:is_same_block"
       }
-    ]
+    ],
+    "type": "fusion:or"
   },
   "loader": "fusion:model",
-  "textures": {
-    "all": "aestheticframes:block/crest_scaled_frame_crimson"
-  }
+  "type": "fusion:connecting"
 }

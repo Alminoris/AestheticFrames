@@ -1,5 +1,8 @@
 {
   "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "/#/"
+  ],
   "key": {
     "#": {
       "item": "aestheticframes:frame_quartz_block_bottom"
@@ -8,9 +11,6 @@
       "item": "minecraft:quartz_block"
     }
   },
-  "pattern": [
-    "/#/"
-  ],
   "result": {
     "item": "aestheticframes:horizontal_frame_quartz_block_bottom"
   }

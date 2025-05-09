@@ -1,25 +1,13 @@
 {
   "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "aestheticframes:frame_crimson"
+    ]
+  },
   "criteria": {
-    "has_stripped_crimson_stem": {
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:stripped_crimson_stem"
-            ]
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    },
-    "has_the_recipe": {
-      "conditions": {
-        "recipe": "aestheticframes:frame_crimson"
-      },
-      "trigger": "minecraft:recipe_unlocked"
-    },
     "has_whitened_white_terracotta": {
+      "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
@@ -28,8 +16,25 @@
             ]
           }
         ]
-      },
-      "trigger": "minecraft:inventory_changed"
+      }
+    },
+    "has_stripped_crimson_stem": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:stripped_crimson_stem"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "aestheticframes:frame_crimson"
+      }
     }
   },
   "requirements": [
@@ -38,10 +43,5 @@
       "has_stripped_crimson_stem",
       "has_the_recipe"
     ]
-  ],
-  "rewards": {
-    "recipes": [
-      "aestheticframes:frame_crimson"
-    ]
-  }
+  ]
 }

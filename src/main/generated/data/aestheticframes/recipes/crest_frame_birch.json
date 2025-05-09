@@ -1,5 +1,10 @@
 {
   "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "/ /",
+    " # ",
+    "/ /"
+  ],
   "key": {
     "#": {
       "item": "aestheticframes:frame_birch"
@@ -8,13 +13,8 @@
       "item": "minecraft:stripped_birch_log"
     }
   },
-  "pattern": [
-    "/ /",
-    " # ",
-    "/ /"
-  ],
   "result": {
-    "count": 2,
-    "item": "aestheticframes:crest_frame_birch"
+    "item": "aestheticframes:crest_frame_birch",
+    "count": 2
   }
 }

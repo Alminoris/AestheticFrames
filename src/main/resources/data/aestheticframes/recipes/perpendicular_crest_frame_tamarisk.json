@@ -1,6 +1,10 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "building",
+  "pattern": [
+    "///",
+    "/#/",
+    "///"
+  ],
   "key": {
     "#": {
       "item": "aestheticframes:frame_tamarisk"
@@ -9,11 +13,6 @@
       "item": "wildfields:stripped_tamarisk_log"
     }
   },
-  "pattern": [
-    "///",
-    "/#/",
-    "///"
-  ],
   "result": {
     "count": 4,
     "item": "aestheticframes:perpendicular_crest_frame_tamarisk"

@@ -1,5 +1,8 @@
 {
   "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#/"
+  ],
   "key": {
     "#": {
       "item": "minecraft:white_terracotta"
@@ -8,9 +11,6 @@
       "item": "minecraft:white_dye"
     }
   },
-  "pattern": [
-    "#/"
-  ],
   "result": {
     "item": "aestheticframes:whitened_white_terracotta"
   }

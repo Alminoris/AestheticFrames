@@ -1,5 +1,10 @@
 {
   "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " / ",
+    "/#/",
+    " / "
+  ],
   "key": {
     "#": {
       "item": "aestheticframes:frame_acacia"
@@ -8,13 +13,8 @@
       "item": "minecraft:stripped_acacia_log"
     }
   },
-  "pattern": [
-    " / ",
-    "/#/",
-    " / "
-  ],
   "result": {
-    "count": 2,
-    "item": "aestheticframes:perpendicular_frame_acacia"
+    "item": "aestheticframes:perpendicular_frame_acacia",
+    "count": 2
   }
 }
