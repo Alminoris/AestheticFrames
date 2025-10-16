@@ -53,11 +53,6 @@ public class BlockSetsHelper
                     "", "horizontal_", "vertical_", "perpendicular_", "crest_", "horizontal_crest_", "vertical_crest_", "perpendicular_crest_"
             };
 
-    public static final String[] BOUNDLESS_FRAME_TYPES =
-            {
-                    "horizontal_", "vertical_", "perpendicular_", "crest_", "horizontal_crest_", "vertical_crest_", "perpendicular_crest_"
-            };
-
     public static final String[] SCALED_FRAME_TYPES =
             {
                     "crest_"

@@ -6,7 +6,7 @@
       "item": "aestheticframes:frame_saltmarsh_block"
     },
     "/": {
-      "item": "wildfields:saltmarsh_block"
+      "item": "wildfields:stripped_saltmarsh_block_log"
     }
   },
   "pattern": [

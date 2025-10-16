@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "aestheticframes:frame_mountain_hemlock"
+    },
+    "/": {
+      "item": "arborealnature:stripped_mountain_hemlock_log"
+    }
+  },
+  "pattern": [
+    "///",
+    " # ",
+    "///"
+  ],
+  "result": {
+    "count": 3,
+    "id": "aestheticframes:vertical_crest_frame_mountain_hemlock"
+  }
+}

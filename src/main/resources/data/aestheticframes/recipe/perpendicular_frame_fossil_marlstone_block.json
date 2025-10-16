@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "aestheticframes:frame_fossil_marlstone_block"
+    },
+    "/": {
+      "item": "wildfields:stripped_fossil_marlstone_block_log"
+    }
+  },
+  "pattern": [
+    " / ",
+    "/#/",
+    " / "
+  ],
+  "result": {
+    "count": 2,
+    "id": "aestheticframes:perpendicular_frame_fossil_marlstone_block"
+  }
+}

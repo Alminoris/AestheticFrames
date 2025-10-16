@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "aestheticframes:frame_yew"
+    },
+    "/": {
+      "item": "arborealnature:stripped_yew_log"
+    }
+  },
+  "pattern": [
+    "/ /",
+    "/#/",
+    "/ /"
+  ],
+  "result": {
+    "count": 3,
+    "id": "aestheticframes:horizontal_crest_frame_yew"
+  }
+}

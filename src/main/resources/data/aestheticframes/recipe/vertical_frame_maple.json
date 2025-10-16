@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "aestheticframes:frame_maple"
+    },
+    "/": {
+      "item": "natures_spirit:stripped_maple_log"
+    }
+  },
+  "pattern": [
+    "/",
+    "#",
+    "/"
+  ],
+  "result": {
+    "count": 1,
+    "id": "aestheticframes:vertical_frame_maple"
+  }
+}

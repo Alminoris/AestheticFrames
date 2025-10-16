@@ -45,6 +45,42 @@ public class ModItemGroups
                             }
                         }
 
+                        if (FabricLoader.getInstance().isModLoaded("whisperleaftrees"))
+                        {
+                            for(String name : BlockSetsHelper.WT_WOOD_NAMES)
+                            {
+                                for (String frameName : BlockSetsHelper.FRAME_TYPES)
+                                    entries.add(ModBlocks.FRAMES.get(frameName+name));
+                            }
+                        }
+
+                        if (FabricLoader.getInstance().isModLoaded("silverwoodtrees"))
+                        {
+                            for(String name : BlockSetsHelper.ST_WOOD_NAMES)
+                            {
+                                for (String frameName : BlockSetsHelper.FRAME_TYPES)
+                                    entries.add(ModBlocks.FRAMES.get(frameName+name));
+                            }
+                        }
+
+                        if (FabricLoader.getInstance().isModLoaded("missingtrees"))
+                        {
+                            for(String name : BlockSetsHelper.MT_WOOD_NAMES)
+                            {
+                                for (String frameName : BlockSetsHelper.FRAME_TYPES)
+                                    entries.add(ModBlocks.FRAMES.get(frameName+name));
+                            }
+                        }
+
+                        if (FabricLoader.getInstance().isModLoaded("natures_spirit"))
+                        {
+                            for(String name : BlockSetsHelper.NSS_WOOD_NAMES)
+                            {
+                                for (String frameName : BlockSetsHelper.FRAME_TYPES)
+                                    entries.add(ModBlocks.FRAMES.get(frameName+name));
+                            }
+                        }
+
                         for(String name : BlockSetsHelper.STONES)
                         {
                             for (String frameName : BlockSetsHelper.FRAME_TYPES)
@@ -78,6 +114,42 @@ public class ModItemGroups
                         if (FabricLoader.getInstance().isModLoaded("wildfields"))
                         {
                             for(String name : BlockSetsHelper.EXTRA_WOODS_WF)
+                            {
+                                for (String frameName : BlockSetsHelper.SCALED_FRAME_TYPES)
+                                    entries.add(ModBlocks.SCALED_FRAMES.get(frameName+name));
+                            }
+                        }
+
+                        if (FabricLoader.getInstance().isModLoaded("whisperleaftrees"))
+                        {
+                            for(String name : BlockSetsHelper.WT_WOOD_NAMES)
+                            {
+                                for (String frameName : BlockSetsHelper.SCALED_FRAME_TYPES)
+                                    entries.add(ModBlocks.SCALED_FRAMES.get(frameName+name));
+                            }
+                        }
+
+                        if (FabricLoader.getInstance().isModLoaded("silverwoodtrees"))
+                        {
+                            for(String name : BlockSetsHelper.ST_WOOD_NAMES)
+                            {
+                                for (String frameName : BlockSetsHelper.SCALED_FRAME_TYPES)
+                                    entries.add(ModBlocks.SCALED_FRAMES.get(frameName+name));
+                            }
+                        }
+
+                        if (FabricLoader.getInstance().isModLoaded("missingtrees"))
+                        {
+                            for(String name : BlockSetsHelper.MT_WOOD_NAMES)
+                            {
+                                for (String frameName : BlockSetsHelper.SCALED_FRAME_TYPES)
+                                    entries.add(ModBlocks.SCALED_FRAMES.get(frameName+name));
+                            }
+                        }
+
+                        if (FabricLoader.getInstance().isModLoaded("natures_spirit"))
+                        {
+                            for(String name : BlockSetsHelper.NSS_WOOD_NAMES)
                             {
                                 for (String frameName : BlockSetsHelper.SCALED_FRAME_TYPES)
                                     entries.add(ModBlocks.SCALED_FRAMES.get(frameName+name));

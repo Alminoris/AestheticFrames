@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "aestheticframes:frame_loamy_marl_block"
+    },
+    "/": {
+      "item": "wildfields:stripped_loamy_marl_block_log"
+    }
+  },
+  "pattern": [
+    "/ /",
+    "/#/",
+    "/ /"
+  ],
+  "result": {
+    "count": 3,
+    "id": "aestheticframes:horizontal_crest_frame_loamy_marl_block"
+  }
+}

@@ -20,11 +20,6 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider
     {
         addDrop(ModBlocks.WHITENED_WHITE_TERRACOTTA);
 
-        for(String name : BlockSetsHelper.getStones())
-        {
-
-        }
-
         for(String name : BlockSetsHelper.getWoods())
         {
             for (String frameName : BlockSetsHelper.FRAME_TYPES)

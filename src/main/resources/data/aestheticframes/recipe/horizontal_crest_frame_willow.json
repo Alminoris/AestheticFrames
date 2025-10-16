@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "aestheticframes:frame_willow"
+    },
+    "/": {
+      "item": "natures_spirit:stripped_willow_log"
+    }
+  },
+  "pattern": [
+    "/ /",
+    "/#/",
+    "/ /"
+  ],
+  "result": {
+    "count": 3,
+    "id": "aestheticframes:horizontal_crest_frame_willow"
+  }
+}

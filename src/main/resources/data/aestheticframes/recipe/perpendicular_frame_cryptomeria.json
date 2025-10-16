@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "aestheticframes:frame_cryptomeria"
+    },
+    "/": {
+      "item": "arborealnature:stripped_cryptomeria_log"
+    }
+  },
+  "pattern": [
+    " / ",
+    "/#/",
+    " / "
+  ],
+  "result": {
+    "count": 2,
+    "id": "aestheticframes:perpendicular_frame_cryptomeria"
+  }
+}
