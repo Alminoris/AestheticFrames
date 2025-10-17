@@ -4,13 +4,13 @@ import net.alminoris.aestheticframes.AestheticFrames;
 import net.alminoris.aestheticframes.block.ModBlocks;
 import net.alminoris.aestheticframes.util.helper.BlockSetsHelper;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
-import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
-import net.minecraft.data.client.BlockStateModelGenerator;
+import net.fabricmc.fabric.api.datagen.v1.provider.FabricBlockStateDefinitionProvider;
 import net.minecraft.data.client.ItemModelGenerator;
+import net.minecraft.data.client.model.BlockStateModelGenerator;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
-public class ModModelProvider extends FabricModelProvider
+public class ModModelProvider extends FabricBlockStateDefinitionProvider
 {
     public ModModelProvider(FabricDataGenerator dataGenerator)
     {

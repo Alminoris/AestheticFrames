@@ -3,9 +3,9 @@ package net.alminoris.aestheticframes.datagen;
 import net.alminoris.aestheticframes.block.ModBlocks;
 import net.alminoris.aestheticframes.util.helper.BlockSetsHelper;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
-import net.fabricmc.fabric.api.datagen.v1.provider.FabricBlockLootTableProvider;
+import net.fabricmc.fabric.api.datagen.v1.provider.FabricBlockLootTablesProvider;
 
-public class ModLootTableProvider extends FabricBlockLootTableProvider
+public class ModLootTableProvider extends FabricBlockLootTablesProvider
 {
     public ModLootTableProvider(FabricDataGenerator dataGenerator)
     {

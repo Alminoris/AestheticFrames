@@ -5,18 +5,18 @@ import net.alminoris.aestheticframes.item.ModItemGroups;
 import net.alminoris.aestheticframes.util.helper.BlockSetsHelper;
 import net.alminoris.aestheticframes.util.helper.ModJsonHelper;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
-import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
+import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipesProvider;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraft.data.server.recipe.RecipeJsonProvider;
-import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
+import net.minecraft.data.server.recipe.ShapedRecipeJsonFactory;
 import net.minecraft.item.Items;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
 import java.util.function.Consumer;
 
-public class ModRecipeProvider extends FabricRecipeProvider
+public class ModRecipeProvider extends FabricRecipesProvider
 {
     public ModRecipeProvider(FabricDataGenerator output)
     {
@@ -26,7 +26,7 @@ public class ModRecipeProvider extends FabricRecipeProvider
     @Override
     public void generateRecipes(Consumer<RecipeJsonProvider> recipeExporter)
     {
-        ShapedRecipeJsonBuilder.create(ModBlocks.WHITENED_WHITE_TERRACOTTA, 1)
+        ShapedRecipeJsonFactory.create(ModBlocks.WHITENED_WHITE_TERRACOTTA, 1)
                 .pattern("#/")
                 .input('#', Blocks.WHITE_TERRACOTTA)
                 .input('/', Items.WHITE_DYE)
@@ -133,7 +133,7 @@ public class ModRecipeProvider extends FabricRecipeProvider
 
     private void registerFrame(Consumer<RecipeJsonProvider> recipeExporter, Block frame, Block strippedOak)
     {
-        ShapedRecipeJsonBuilder.create(frame, 4)
+        ShapedRecipeJsonFactory.create(frame, 4)
                 .pattern("///")
                 .pattern("/#/")
                 .pattern("///")
@@ -146,7 +146,7 @@ public class ModRecipeProvider extends FabricRecipeProvider
 
     private void registerCrestFrame(Consumer<RecipeJsonProvider> recipeExporter, Block crestFrame, Block frame, Block strippedOak)
     {
-        ShapedRecipeJsonBuilder.create(crestFrame, 2)
+        ShapedRecipeJsonFactory.create(crestFrame, 2)
                 .pattern("/ /")
                 .pattern(" # ")
                 .pattern("/ /")
@@ -159,7 +159,7 @@ public class ModRecipeProvider extends FabricRecipeProvider
 
     private void registerHorizontalFrame(Consumer<RecipeJsonProvider> recipeExporter, Block horizontalFrame, Block frame, Block strippedOak)
     {
-        ShapedRecipeJsonBuilder.create(horizontalFrame, 1)
+        ShapedRecipeJsonFactory.create(horizontalFrame, 1)
                 .pattern("/#/")
                 .input('#', frame)
                 .input('/', strippedOak)
@@ -170,7 +170,7 @@ public class ModRecipeProvider extends FabricRecipeProvider
 
     private void registerVerticalFrame(Consumer<RecipeJsonProvider> recipeExporter, Block verticalFrame, Block frame, Block strippedOak)
     {
-        ShapedRecipeJsonBuilder.create(verticalFrame, 1)
+        ShapedRecipeJsonFactory.create(verticalFrame, 1)
                 .pattern("/")
                 .pattern("#")
                 .pattern("/")
@@ -183,7 +183,7 @@ public class ModRecipeProvider extends FabricRecipeProvider
 
     private void registerPerpendicularFrame(Consumer<RecipeJsonProvider> recipeExporter, Block perpendicularFrame, Block frame, Block strippedOak)
     {
-        ShapedRecipeJsonBuilder.create(perpendicularFrame, 2)
+        ShapedRecipeJsonFactory.create(perpendicularFrame, 2)
                 .pattern(" / ")
                 .pattern("/#/")
                 .pattern(" / ")
@@ -196,7 +196,7 @@ public class ModRecipeProvider extends FabricRecipeProvider
 
     private void registerPerpendicularCrestFrame(Consumer<RecipeJsonProvider> recipeExporter, Block perpendicularCrestFrame, Block frame, Block strippedOak)
     {
-        ShapedRecipeJsonBuilder.create(perpendicularCrestFrame, 4)
+        ShapedRecipeJsonFactory.create(perpendicularCrestFrame, 4)
                 .pattern("///")
                 .pattern("/#/")
                 .pattern("///")
@@ -209,7 +209,7 @@ public class ModRecipeProvider extends FabricRecipeProvider
 
     private void registerHorizontalCrestFrame(Consumer<RecipeJsonProvider> recipeExporter, Block horizontalCrestFrame, Block frame, Block strippedOak)
     {
-        ShapedRecipeJsonBuilder.create(horizontalCrestFrame, 3)
+        ShapedRecipeJsonFactory.create(horizontalCrestFrame, 3)
                 .pattern("/ /")
                 .pattern("/#/")
                 .pattern("/ /")
@@ -222,7 +222,7 @@ public class ModRecipeProvider extends FabricRecipeProvider
 
     private void registerVerticalCrestFrame(Consumer<RecipeJsonProvider> recipeExporter, Block verticalCrestFrame, Block frame, Block strippedOak)
     {
-        ShapedRecipeJsonBuilder.create(verticalCrestFrame, 3)
+        ShapedRecipeJsonFactory.create(verticalCrestFrame, 3)
                 .pattern("///")
                 .pattern(" # ")
                 .pattern("///")
@@ -235,7 +235,7 @@ public class ModRecipeProvider extends FabricRecipeProvider
 
     private void registerScaledCrestFrame(Consumer<RecipeJsonProvider> recipeExporter, Block scaledCrestFrame, Block crestFrame, Block strippedOak)
     {
-        ShapedRecipeJsonBuilder.create(scaledCrestFrame, 4)
+        ShapedRecipeJsonFactory.create(scaledCrestFrame, 4)
                 .pattern("///")
                 .pattern("/#/")
                 .pattern("///")
