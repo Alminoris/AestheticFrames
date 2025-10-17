@@ -17,5 +17,11 @@ public class AestheticFramesDataGenerator implements DataGeneratorEntrypoint
 		pack.addProvider(ModBlockTagProvider::new);
 		pack.addProvider(ModFusionModelProvider::new);
 		pack.addProvider(ModFusionTextureMetadataProvider::new);
+		pack.addProvider(ModLanguageProviderEnUs::new);
+		pack.addProvider(ModLanguageProviderDeDe::new);
+		pack.addProvider(ModLanguageProviderEsEs::new);
+		pack.addProvider(ModLanguageProviderFrFr::new);
+		pack.addProvider(ModLanguageProviderRuRu::new);
+		pack.addProvider(ModLanguageProviderUkUa::new);
 	}
 }
