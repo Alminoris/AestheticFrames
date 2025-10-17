@@ -1,10 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "///",
-    "/#/",
-    "///"
-  ],
   "key": {
     "#": {
       "item": "aestheticframes:crest_frame_plum"
@@ -13,6 +8,11 @@
       "item": "arborealnature:stripped_plum_log"
     }
   },
+  "pattern": [
+    "///",
+    "/#/",
+    "///"
+  ],
   "result": {
     "count": 4,
     "item": "aestheticframes:crest_scaled_frame_plum"

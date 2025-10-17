@@ -1,10 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "///",
-    "/#/",
-    "///"
-  ],
   "key": {
     "#": {
       "item": "aestheticframes:crest_frame_dolomite_block"
@@ -13,6 +8,11 @@
       "item": "wildfields:dolomite_block"
     }
   },
+  "pattern": [
+    "///",
+    "/#/",
+    "///"
+  ],
   "result": {
     "count": 4,
     "item": "aestheticframes:crest_scaled_frame_dolomite_block"

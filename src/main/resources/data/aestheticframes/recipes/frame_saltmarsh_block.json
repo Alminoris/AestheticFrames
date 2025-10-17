@@ -1,10 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "///",
-    "/#/",
-    "///"
-  ],
   "key": {
     "#": {
       "item": "aestheticframes:whitened_white_terracotta"
@@ -13,6 +8,11 @@
       "item": "wildfields:saltmarsh_block"
     }
   },
+  "pattern": [
+    "///",
+    "/#/",
+    "///"
+  ],
   "result": {
     "count": 4,
     "item": "aestheticframes:frame_saltmarsh_block"

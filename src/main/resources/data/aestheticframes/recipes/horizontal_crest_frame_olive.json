@@ -1,10 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "/ /",
-    "/#/",
-    "/ /"
-  ],
   "key": {
     "#": {
       "item": "aestheticframes:frame_olive"
@@ -13,6 +8,11 @@
       "item": "wildfields:stripped_olive_log"
     }
   },
+  "pattern": [
+    "/ /",
+    "/#/",
+    "/ /"
+  ],
   "result": {
     "count": 3,
     "item": "aestheticframes:horizontal_crest_frame_olive"

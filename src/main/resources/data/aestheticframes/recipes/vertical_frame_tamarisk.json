@@ -1,10 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "/",
-    "#",
-    "/"
-  ],
   "key": {
     "#": {
       "item": "aestheticframes:frame_tamarisk"
@@ -13,6 +8,11 @@
       "item": "wildfields:stripped_tamarisk_log"
     }
   },
+  "pattern": [
+    "/",
+    "#",
+    "/"
+  ],
   "result": {
     "count": 1,
     "item": "aestheticframes:vertical_frame_tamarisk"
