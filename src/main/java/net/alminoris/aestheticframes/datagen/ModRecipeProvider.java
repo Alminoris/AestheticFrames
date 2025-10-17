@@ -36,7 +36,7 @@ public class ModRecipeProvider extends FabricRecipeProvider
 
         for(String name : BlockSetsHelper.STONES)
         {
-            Block block = Registry.BLOCK.get(Identifier.of("minecraft",name.equals("basalt_side") ? "basalt" :
+            Block block = Registry.BLOCK.get(new Identifier("minecraft",name.equals("basalt_side") ? "basalt" :
                     (name.equals("quartz_block_bottom") ? "quartz_block" : name)));
 
             registerFrame(recipeExporter, ModBlocks.FRAMES.get(name), block);
@@ -53,7 +53,7 @@ public class ModRecipeProvider extends FabricRecipeProvider
         for(String name : BlockSetsHelper.WOODS)
         {
             String blockName = (name.equals("crimson") || name.equals("warped")) ? "stem" : (name.equals("bamboo") ? "block" : "log");
-            Block block = Registry.BLOCK.get(Identifier.of("minecraft","stripped_"+name+"_"+blockName));
+            Block block = Registry.BLOCK.get(new Identifier("minecraft","stripped_"+name+"_"+blockName));
 
             registerFrame(recipeExporter, ModBlocks.FRAMES.get(name), block);
             registerCrestFrame(recipeExporter, ModBlocks.FRAMES.get("crest_"+name), ModBlocks.FRAMES.get(name), block);
