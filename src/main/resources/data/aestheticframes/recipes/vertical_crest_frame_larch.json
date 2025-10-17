@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "aestheticframes:frame_larch"
+    },
+    "/": {
+      "item": "natures_spirit:stripped_larch_log"
+    }
+  },
+  "pattern": [
+    "///",
+    " # ",
+    "///"
+  ],
+  "result": {
+    "count": 3,
+    "item": "aestheticframes:vertical_crest_frame_larch"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "aestheticframes:frame_western_serviceberry"
+    },
+    "/": {
+      "item": "wildfields:stripped_western_serviceberry_log"
+    }
+  },
+  "pattern": [
+    " / ",
+    "/#/",
+    " / "
+  ],
+  "result": {
+    "count": 2,
+    "item": "aestheticframes:perpendicular_frame_western_serviceberry"
+  },
+  "show_notification": true
+}

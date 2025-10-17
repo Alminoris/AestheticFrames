@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "aestheticframes:frame_poplar"
+    },
+    "/": {
+      "item": "whisperleaftrees:stripped_poplar_log"
+    }
+  },
+  "pattern": [
+    
+    "/#/"
+    
+  ],
+  "result": {
+    "count": 1,
+    "item": "aestheticframes:horizontal_frame_poplar"
+  },
+  "show_notification": true
+}

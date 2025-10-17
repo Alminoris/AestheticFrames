@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "aestheticframes:frame_wisteria"
+    },
+    "/": {
+      "item": "natures_spirit:stripped_wisteria_log"
+    }
+  },
+  "pattern": [
+    
+    "/#/"
+    
+  ],
+  "result": {
+    "count": 1,
+    "item": "aestheticframes:horizontal_frame_wisteria"
+  },
+  "show_notification": true
+}

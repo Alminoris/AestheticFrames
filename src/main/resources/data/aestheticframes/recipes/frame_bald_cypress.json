@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "aestheticframes:whitened_white_terracotta"
+    },
+    "/": {
+      "item": "arborealnature:stripped_bald_cypress_log"
+    }
+  },
+  "pattern": [
+    "///",
+    "/#/",
+    "///"
+  ],
+  "result": {
+    "count": 4,
+    "item": "aestheticframes:frame_bald_cypress"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "aestheticframes:frame_walnut"
+    },
+    "/": {
+      "item": "silverwoodtrees:stripped_walnut_log"
+    }
+  },
+  "pattern": [
+    
+    "/#/"
+    
+  ],
+  "result": {
+    "count": 1,
+    "item": "aestheticframes:horizontal_frame_walnut"
+  },
+  "show_notification": true
+}

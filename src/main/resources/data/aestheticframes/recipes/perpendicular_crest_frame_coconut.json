@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "aestheticframes:frame_coconut"
+    },
+    "/": {
+      "item": "natures_spirit:stripped_coconut_log"
+    }
+  },
+  "pattern": [
+    "///",
+    "/#/",
+    "///"
+  ],
+  "result": {
+    "count": 4,
+    "item": "aestheticframes:perpendicular_crest_frame_coconut"
+  },
+  "show_notification": true
+}
