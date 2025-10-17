@@ -1,6 +1,7 @@
 package net.alminoris.aestheticframes.datagen;
 
 import net.alminoris.aestheticframes.block.ModBlocks;
+import net.alminoris.aestheticframes.item.ModItemGroups;
 import net.alminoris.aestheticframes.util.helper.BlockSetsHelper;
 import net.alminoris.aestheticframes.util.helper.ModJsonHelper;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
@@ -17,9 +18,9 @@ import java.util.function.Consumer;
 
 public class ModRecipeProvider extends FabricRecipeProvider
 {
-    public ModRecipeProvider(FabricDataGenerator dataGenerator) 
+    public ModRecipeProvider(FabricDataGenerator output)
     {
-        super(dataGenerator);
+        super(output);
     }
 
     @Override
@@ -32,10 +33,10 @@ public class ModRecipeProvider extends FabricRecipeProvider
                 .criterion(hasItem(Blocks.WHITE_TERRACOTTA), conditionsFromItem(Blocks.WHITE_TERRACOTTA))
                 .criterion(hasItem(Items.WHITE_DYE), conditionsFromItem(Items.WHITE_DYE))
                 .offerTo(recipeExporter);
-        
+
         for(String name : BlockSetsHelper.STONES)
         {
-            Block block = Registry.BLOCK.get(Identifier.of("minecraft", name.equals("basalt_side") ? "basalt" :
+            Block block = Registry.BLOCK.get(Identifier.of("minecraft",name.equals("basalt_side") ? "basalt" :
                     (name.equals("quartz_block_bottom") ? "quartz_block" : name)));
 
             registerFrame(recipeExporter, ModBlocks.FRAMES.get(name), block);
@@ -47,28 +48,6 @@ public class ModRecipeProvider extends FabricRecipeProvider
             registerVerticalCrestFrame(recipeExporter, ModBlocks.FRAMES.get("vertical_crest_"+name), ModBlocks.FRAMES.get(name), block);
             registerPerpendicularCrestFrame(recipeExporter, ModBlocks.FRAMES.get("perpendicular_crest_"+name), ModBlocks.FRAMES.get(name), block);
             registerScaledCrestFrame(recipeExporter, ModBlocks.SCALED_FRAMES.get("crest_"+name), ModBlocks.FRAMES.get("crest_"+name), block);
-        }
-
-        for(String name : BlockSetsHelper.EXTRA_STONES_WF)
-        {
-            ModJsonHelper.createShapedRecipe("frame_"+name, "4", "wildfields:"+name, "aestheticframes:whitened_white_terracotta",
-                    "\"///\",", "\"/#/\",", "\"///\"");
-            ModJsonHelper.createShapedRecipe("crest_frame_"+name, "2", "wildfields:"+name, "aestheticframes:frame_"+name,
-                    "\"/ /\",", "\" # \",", "\"/ /\"");
-            ModJsonHelper.createShapedRecipe("vertical_frame_"+name, "1", "wildfields:"+name, "aestheticframes:frame_"+name,
-                    "\"/\",", "\"#\",", "\"/\"");
-            ModJsonHelper.createShapedRecipe("horizontal_frame_"+name, "1", "wildfields:"+name, "aestheticframes:frame_"+name,
-                    "", "\"/#/\"", "");
-            ModJsonHelper.createShapedRecipe("perpendicular_frame_"+name, "2", "wildfields:"+name, "aestheticframes:frame_"+name,
-                    "\" / \",", "\"/#/\",", "\" / \"");
-            ModJsonHelper.createShapedRecipe("horizontal_crest_frame_"+name, "3", "wildfields:"+name, "aestheticframes:frame_"+name,
-                    "\"/ /\",", "\"/#/\",", "\"/ /\"");
-            ModJsonHelper.createShapedRecipe("vertical_crest_frame_"+name, "3", "wildfields:"+name, "aestheticframes:frame_"+name,
-                    "\"///\",", "\" # \",", "\"///\"");
-            ModJsonHelper.createShapedRecipe("perpendicular_crest_frame_"+name, "4", "wildfields:"+name, "aestheticframes:frame_"+name,
-                    "\"///\",", "\"/#/\",", "\"///\"");
-            ModJsonHelper.createShapedRecipe("crest_scaled_frame_"+name, "4", "wildfields:"+name, "aestheticframes:crest_frame_"+name,
-                    "\"///\",", "\"/#/\",", "\"///\"");
         }
 
         for(String name : BlockSetsHelper.WOODS)
@@ -87,47 +66,67 @@ public class ModRecipeProvider extends FabricRecipeProvider
             registerScaledCrestFrame(recipeExporter, ModBlocks.SCALED_FRAMES.get("crest_"+name), ModBlocks.FRAMES.get("crest_"+name), block);
         }
 
-        for(String name : BlockSetsHelper.EXTRA_WOODS_AN)
+        registerExtraFrames(ModItemGroups.AN_WOOD_NAMES.toArray(new String[0]), "arborealnature");
+        registerExtraFrames(ModItemGroups.WF_WOOD_NAMES.toArray(new String[0]), "wildfields");
+        registerExtraFrames(ModItemGroups.EXTRA_STONES_WF.toArray(new String[0]), "wildfields");
+        registerExtraFrames(ModItemGroups.MT_WOOD_NAMES.toArray(new String[0]), "missingtrees");
+        registerExtraFrames(ModItemGroups.WT_WOOD_NAMES.toArray(new String[0]), "whisperleaftrees");
+        registerExtraFrames(ModItemGroups.ST_WOOD_NAMES.toArray(new String[0]), "silverwoodtrees");
+        registerExtraFrames(ModItemGroups.NSS_WOOD_NAMES.toArray(new String[0]), "natures_spirit", "_nss");
+    }
+
+    private void registerExtraFrames(String[] list, String modId)
+    {
+        for(String name : list)
         {
-            ModJsonHelper.createShapedRecipe("frame_"+name, "4", "arborealnature:stripped_"+name+"_log", "aestheticframes:whitened_white_terracotta",
+            ModJsonHelper.createShapedRecipe("frame_"+name, "4", modId+":stripped_"+name+"_log", "aestheticframes:whitened_white_terracotta",
                     "\"///\",", "\"/#/\",", "\"///\"");
-            ModJsonHelper.createShapedRecipe("crest_frame_"+name, "2", "arborealnature:stripped_"+name+"_log", "aestheticframes:frame_"+name,
+            ModJsonHelper.createShapedRecipe("crest_frame_"+name, "2", modId+":stripped_"+name+"_log", "aestheticframes:frame_"+name,
                     "\"/ /\",", "\" # \",", "\"/ /\"");
-            ModJsonHelper.createShapedRecipe("vertical_frame_"+name, "1", "arborealnature:stripped_"+name+"_log", "aestheticframes:frame_"+name,
+            ModJsonHelper.createShapedRecipe("vertical_frame_"+name, "1", modId+":stripped_"+name+"_log", "aestheticframes:frame_"+name,
                     "\"/\",", "\"#\",", "\"/\"");
-            ModJsonHelper.createShapedRecipe("horizontal_frame_"+name, "1", "arborealnature:stripped_"+name+"_log", "aestheticframes:frame_"+name,
+            ModJsonHelper.createShapedRecipe("horizontal_frame_"+name, "1", modId+":stripped_"+name+"_log", "aestheticframes:frame_"+name,
                     "", "\"/#/\"", "");
-            ModJsonHelper.createShapedRecipe("perpendicular_frame_"+name, "2", "arborealnature:stripped_"+name+"_log", "aestheticframes:frame_"+name,
+            ModJsonHelper.createShapedRecipe("perpendicular_frame_"+name, "2", modId+":stripped_"+name+"_log", "aestheticframes:frame_"+name,
                     "\" / \",", "\"/#/\",", "\" / \"");
-            ModJsonHelper.createShapedRecipe("horizontal_crest_frame_"+name, "3", "arborealnature:stripped_"+name+"_log", "aestheticframes:frame_"+name,
+            ModJsonHelper.createShapedRecipe("horizontal_crest_frame_"+name, "3", modId+":stripped_"+name+"_log", "aestheticframes:frame_"+name,
                     "\"/ /\",", "\"/#/\",", "\"/ /\"");
-            ModJsonHelper.createShapedRecipe("vertical_crest_frame_"+name, "3", "arborealnature:stripped_"+name+"_log", "aestheticframes:frame_"+name,
+            ModJsonHelper.createShapedRecipe("vertical_crest_frame_"+name, "3", modId+":stripped_"+name+"_log", "aestheticframes:frame_"+name,
                     "\"///\",", "\" # \",", "\"///\"");
-            ModJsonHelper.createShapedRecipe("perpendicular_crest_frame_"+name, "4", "arborealnature:stripped_"+name+"_log", "aestheticframes:frame_"+name,
+            ModJsonHelper.createShapedRecipe("perpendicular_crest_frame_"+name, "4", modId+":stripped_"+name+"_log", "aestheticframes:frame_"+name,
                     "\"///\",", "\"/#/\",", "\"///\"");
-            ModJsonHelper.createShapedRecipe("crest_scaled_frame_"+name, "4", "arborealnature:stripped_"+name+"_log", "aestheticframes:crest_frame_"+name,
+            ModJsonHelper.createShapedRecipe("crest_scaled_frame_"+name, "4", modId+":stripped_"+name+"_log", "aestheticframes:crest_frame_"+name,
                     "\"///\",", "\"/#/\",", "\"///\"");
         }
+    }
 
-        for(String name : BlockSetsHelper.EXTRA_WOODS_WF)
+    private void registerExtraFrames(String[] list, String modId, String toRemove)
+    {
+        for(String nameL : list)
         {
-            ModJsonHelper.createShapedRecipe("frame_"+name, "4", "wildfields:stripped_"+name+"_log", "aestheticframes:whitened_white_terracotta",
+            String name;
+            if (nameL.contains(toRemove))
+                name = nameL.replaceFirst(toRemove, "");
+            else
+                name = nameL;
+
+            ModJsonHelper.createShapedRecipe("frame_"+name, "4", modId+":stripped_"+name+"_log", "aestheticframes:whitened_white_terracotta",
                     "\"///\",", "\"/#/\",", "\"///\"");
-            ModJsonHelper.createShapedRecipe("crest_frame_"+name, "2", "wildfields:stripped_"+name+"_log", "aestheticframes:frame_"+name,
+            ModJsonHelper.createShapedRecipe("crest_frame_"+name, "2", modId+":stripped_"+name+"_log", "aestheticframes:frame_"+name,
                     "\"/ /\",", "\" # \",", "\"/ /\"");
-            ModJsonHelper.createShapedRecipe("vertical_frame_"+name, "1", "wildfields:stripped_"+name+"_log", "aestheticframes:frame_"+name,
+            ModJsonHelper.createShapedRecipe("vertical_frame_"+name, "1", modId+":stripped_"+name+"_log", "aestheticframes:frame_"+name,
                     "\"/\",", "\"#\",", "\"/\"");
-            ModJsonHelper.createShapedRecipe("horizontal_frame_"+name, "1", "wildfields:stripped_"+name+"_log", "aestheticframes:frame_"+name,
+            ModJsonHelper.createShapedRecipe("horizontal_frame_"+name, "1", modId+":stripped_"+name+"_log", "aestheticframes:frame_"+name,
                     "", "\"/#/\"", "");
-            ModJsonHelper.createShapedRecipe("perpendicular_frame_"+name, "2", "wildfields:stripped_"+name+"_log", "aestheticframes:frame_"+name,
+            ModJsonHelper.createShapedRecipe("perpendicular_frame_"+name, "2", modId+":stripped_"+name+"_log", "aestheticframes:frame_"+name,
                     "\" / \",", "\"/#/\",", "\" / \"");
-            ModJsonHelper.createShapedRecipe("horizontal_crest_frame_"+name, "3", "wildfields:stripped_"+name+"_log", "aestheticframes:frame_"+name,
+            ModJsonHelper.createShapedRecipe("horizontal_crest_frame_"+name, "3", modId+":stripped_"+name+"_log", "aestheticframes:frame_"+name,
                     "\"/ /\",", "\"/#/\",", "\"/ /\"");
-            ModJsonHelper.createShapedRecipe("vertical_crest_frame_"+name, "3", "wildfields:stripped_"+name+"_log", "aestheticframes:frame_"+name,
+            ModJsonHelper.createShapedRecipe("vertical_crest_frame_"+name, "3", modId+":stripped_"+name+"_log", "aestheticframes:frame_"+name,
                     "\"///\",", "\" # \",", "\"///\"");
-            ModJsonHelper.createShapedRecipe("perpendicular_crest_frame_"+name, "4", "wildfields:stripped_"+name+"_log", "aestheticframes:frame_"+name,
+            ModJsonHelper.createShapedRecipe("perpendicular_crest_frame_"+name, "4", modId+":stripped_"+name+"_log", "aestheticframes:frame_"+name,
                     "\"///\",", "\"/#/\",", "\"///\"");
-            ModJsonHelper.createShapedRecipe("crest_scaled_frame_"+name, "4", "wildfields:stripped_"+name+"_log", "aestheticframes:crest_frame_"+name,
+            ModJsonHelper.createShapedRecipe("crest_scaled_frame_"+name, "4", modId+":stripped_"+name+"_log", "aestheticframes:crest_frame_"+name,
                     "\"///\",", "\"/#/\",", "\"///\"");
         }
     }
