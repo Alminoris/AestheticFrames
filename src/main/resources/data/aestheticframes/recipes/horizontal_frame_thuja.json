@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "aestheticframes:frame_thuja"
+    },
+    "/": {
+      "item": "arborealnature:stripped_thuja_log"
+    }
+  },
+  "pattern": [
+    
+    "/#/"
+    
+  ],
+  "result": {
+    "count": 1,
+    "item": "aestheticframes:horizontal_frame_thuja"
+  },
+  "show_notification": true
+}

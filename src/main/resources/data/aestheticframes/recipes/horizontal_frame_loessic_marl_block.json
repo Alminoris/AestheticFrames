@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "aestheticframes:frame_loessic_marl_block"
+    },
+    "/": {
+      "item": "wildfields:stripped_loessic_marl_block_log"
+    }
+  },
+  "pattern": [
+    
+    "/#/"
+    
+  ],
+  "result": {
+    "count": 1,
+    "item": "aestheticframes:horizontal_frame_loessic_marl_block"
+  },
+  "show_notification": true
+}
