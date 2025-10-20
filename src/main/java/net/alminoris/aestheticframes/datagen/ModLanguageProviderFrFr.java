@@ -29,6 +29,11 @@ public class ModLanguageProviderFrFr extends FabricLanguageProvider
         frameTypes.put("horizontal_crest_frame_", "Cadre héraldique horizontal en %s");
         frameTypes.put("perpendicular_crest_frame_", "Cadre héraldique perpendiculaire en %s");
         frameTypes.put("crest_scaled_frame_", "Cadre héraldique à échelle en %s");
+        frameTypes.put("point_frame_", "Cadre ponctuel en %s");
+        frameTypes.put("vertical_point_frame_", "Cadre ponctuel vertical en %s");
+        frameTypes.put("horizontal_point_frame_", "Cadre ponctuel horizontal en %s");
+        frameTypes.put("perpendicular_point_frame_", "Cadre ponctuel perpendiculaire en %s");
+
 
         Map<String, String> materials = new LinkedHashMap<>();
         materials.put("bald_cypress", "cyprès chauve");

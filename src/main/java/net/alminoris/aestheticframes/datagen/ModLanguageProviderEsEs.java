@@ -29,6 +29,11 @@ public class ModLanguageProviderEsEs extends FabricLanguageProvider
         frameTypes.put("horizontal_crest_frame_", "Marco heráldico horizontal de %s");
         frameTypes.put("perpendicular_crest_frame_", "Marco heráldico perpendicular de %s");
         frameTypes.put("crest_scaled_frame_", "Marco heráldico escalado de %s");
+        frameTypes.put("point_frame_", "Marco puntual de %s");
+        frameTypes.put("vertical_point_frame_", "Marco puntual vertical de %s");
+        frameTypes.put("horizontal_point_frame_", "Marco puntual horizontal de %s");
+        frameTypes.put("perpendicular_point_frame_", "Marco puntual perpendicular de %s");
+
 
         Map<String, String> materials = new LinkedHashMap<>();
         materials.put("bald_cypress", "ciprés calvo");

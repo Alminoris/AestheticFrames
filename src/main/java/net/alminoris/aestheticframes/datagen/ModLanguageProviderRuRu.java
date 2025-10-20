@@ -29,6 +29,11 @@ public class ModLanguageProviderRuRu extends FabricLanguageProvider
         frameTypes.put("horizontal_crest_frame_", "Горизонтальная гербовая рамка из %s");
         frameTypes.put("perpendicular_crest_frame_", "Перпендикулярная гербовая рамка из %s");
         frameTypes.put("crest_scaled_frame_", "Масштабированная гербовая рамка из %s");
+        frameTypes.put("point_frame_", "Точечная рамка из %s");
+        frameTypes.put("vertical_point_frame_", "Вертикальная точечная рамка из %s");
+        frameTypes.put("horizontal_point_frame_", "Горизонтальная точечная рамка из %s");
+        frameTypes.put("perpendicular_point_frame_", "Перпендикулярная точечная рамка из %s");
+
 
         Map<String, String> materials = new LinkedHashMap<>();
         materials.put("bald_cypress", "болотного кипариса");

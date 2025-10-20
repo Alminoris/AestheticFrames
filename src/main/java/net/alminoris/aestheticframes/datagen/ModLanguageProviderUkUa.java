@@ -29,6 +29,10 @@ public class ModLanguageProviderUkUa extends FabricLanguageProvider
         frameTypes.put("horizontal_crest_frame_", "Горизонтальна гербова рамка з %s");
         frameTypes.put("perpendicular_crest_frame_", "Перпендикулярна гербова рамка з %s");
         frameTypes.put("crest_scaled_frame_", "Масштабована гербова рамка з %s");
+        frameTypes.put("point_frame_", "Точкова рамка з %s");
+        frameTypes.put("vertical_point_frame_", "Вертикальна точкова рамка з %s");
+        frameTypes.put("horizontal_point_frame_", "Горизонтальна точкова рамка з %s");
+        frameTypes.put("perpendicular_point_frame_", "Перпендикулярна точкова рамка з %s");
 
         Map<String, String> materials = new LinkedHashMap<>();
         materials.put("bald_cypress", "болотного кипариса");
