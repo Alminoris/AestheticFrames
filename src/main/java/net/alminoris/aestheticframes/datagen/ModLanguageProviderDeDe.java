@@ -27,6 +27,10 @@ public class ModLanguageProviderDeDe extends FabricLanguageProvider
         frameTypes.put("horizontal_crest_frame_", "Horizontaler Wappenrahmen aus %s");
         frameTypes.put("perpendicular_crest_frame_", "Senkrechter Wappenrahmen aus %s");
         frameTypes.put("crest_scaled_frame_", "Skalierter Wappenrahmen aus %s");
+        frameTypes.put("point_frame_", "Punktrahmen aus %s");
+        frameTypes.put("vertical_point_frame_", "Vertikaler Punktrahmen aus %s");
+        frameTypes.put("horizontal_point_frame_", "Horizontaler Punktrahmen aus %s");
+        frameTypes.put("perpendicular_point_frame_", "Senkrechter Punktrahmen aus %s");
 
         Map<String, String> materials = new LinkedHashMap<>();
         materials.put("bald_cypress", "Sumpfzypresse");
