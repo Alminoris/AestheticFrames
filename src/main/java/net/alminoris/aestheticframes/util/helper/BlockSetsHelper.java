@@ -26,7 +26,7 @@ public class BlockSetsHelper
 
     public static final String[] FRAME_TYPES =
             {
-                    "", "horizontal_", "vertical_", "perpendicular_", "crest_", "horizontal_crest_", "vertical_crest_", "perpendicular_crest_"
+                    "", "horizontal_", "vertical_", "perpendicular_", "point_", "horizontal_point_", "vertical_point_", "perpendicular_point_", "crest_", "horizontal_crest_", "vertical_crest_", "perpendicular_crest_"
             };
 
     public static final String[] BOUNDLESS_FRAME_TYPES =
